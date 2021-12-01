@@ -15,6 +15,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
+    <link rel="stylesheet" href="<?= base_url('assets'); ?>/css/custom.css">
+
 </head>
 
 
@@ -49,6 +51,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="<?= base_url("Homepage/contact"); ?>">Contact Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="background-color: #9C1718;border-color:#9C1718;font-size:14px;" href="<?= base_url("Homepage/register"); ?>" class="btn btn-danger ">Register</a>
                         </li>
                     </ul>
                 </div>
@@ -85,9 +90,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="content-sec-11" style="position: relative">
                     <div class="d-flex align-items-center">
                         <div class="title-style">Webinar Technology</div>
-                        <h6 style="color:#9C1718" class="ml-auto"><i class="fa fa-calendar" aria-hidden="true"></i><b> 20 May 2021</b></h6>
+                        <h6 style="color:#9C1718" class="ml-auto news-detail-tanggal"><i class="fa fa-calendar" aria-hidden="true"></i><b> 20 May 2021</b></h6>
                     </div>
-                    <img class="center mt-4" src="<?= base_url('assets'); ?>/images/bgnewsdetails.png">
+                    <img class="center mt-4 img-responsive" src="<?= base_url('assets'); ?>/images/bgnewsdetails.png">
                     <div class="mt-5">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel imperdiet neque. Sed id finibus nisi. Vivamus leo augue, faucibus quis enim in, condimentum imperdiet mi. Nullam accumsan feugiat lectus iaculis mollis. Etiam nec mauris ligula. Duis dolor nisi, sodales posuere pellentesque id, posuere quis sapien. Phasellus eleifend magna vel tortor dignissim vestibulum at ac leo. Cras mattis mi quis ligula porttitor, et euismod eros luctus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed imperdiet accumsan nisl nec rhoncus. Sed vel diam mollis, eleifend massa nec, vestibulum leo. Nulla quis enim lectus. Nullam tincidunt varius diam et varius. Fusce lacinia sed sem ac laoreet. Aliquam erat volutpat.
                     </div>
@@ -119,31 +124,31 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="row justify-content-center">
                         <div class="col-md-4">
                             <div class="section-heading text-center mb-sm-5 mb-2">
-                                <h3 class="title-style mb-2" style="color:#9B191B; margin-left:-100%">Other News</h3>
+                                <h3 class="title-style mb-2 text-center text-md-left" style="color:#9B191B; ">Other News</h3>
                             </div>
                         </div>
                         <div class="col-md-6">
                         </div>
                     </div>
 
-                    <div id="test" class="row">
+                    <div id="test" class="row ">
 
-                        <div class="col-lg-3">
+                        <div class="col-xl-3 col-lg-4 col-md-2 mb-4">
                             <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 792.png">
                             <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar" aria-hidden="true"></i><b> 11 May 2021</b></h6>
                             <h6 style="margin-left:5%;color:black"><b>Webinar Technology</b></h6>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-xl-3 col-lg-4 col-md-2 mb-4">
                             <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 734.png">
                             <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar" aria-hidden="true"></i><b> 20 May 2021</b></h6>
                             <h6 style="margin-left:5%;color:black"><b>Carry On Indonesian Education</b></h6>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-xl-3 col-lg-4 col-md-2 mb-4">
                             <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 775.png">
                             <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar" aria-hidden="true"></i><b> 31 May 2021</b></h6>
                             <h6 style="margin-left:5%;color:black"><b>Cooperation with Australian companies</b></h6>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-xl-3 col-lg-4 col-md-2 mb-4">
                             <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 791.png">
                             <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar" aria-hidden="true"></i><b> 06 June 2021</b></h6>
                             <h6 style="margin-left:5%;color:black"><b>SMARTIES Awards Indonesia</b></h6>

@@ -15,6 +15,67 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
+    <link rel="stylesheet" href="<?= base_url('assets'); ?>/css/custom.css">
+    <style>
+        .profile-card-2 {
+            max-width: 100%;
+            background-position: center;
+            overflow: hidden;
+            position: relative;
+            margin: 2px auto;
+            /* cursor: pointer; */
+            border-radius: 30px;
+            height: 500px;
+            background-position: center;
+            background-size: cover;
+            transition: all linear 0.25s;
+        }
+
+        .profile-card-2 img {
+            transition: all linear 0.25s;
+        }
+
+
+
+        .profile-card-2 .wrap-profile {
+            position: absolute;
+            left: 20px;
+            bottom: 100px;
+            /* font-size: 20px; */
+            color: #FFF;
+            text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+            /* font-weight: bold; */
+        }
+
+        @media screen and (max-width: 768px) {
+            .profile-card-2 .wrap-profile {
+                bottom: 50px;
+
+            }
+        }
+
+        .profile-card-2 .profile-name {
+            left: 20px;
+            font-size: 20px;
+            color: #FFF;
+            text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+            font-weight: bold;
+        }
+
+        .profile-card-2 .profile-username {
+            left: 20px;
+            color: #FFF;
+            font-size: 13px;
+        }
+
+        .profile-card-2 .profile-icons .fa {
+            margin: 5px;
+        }
+
+        .profile-card-2:hover {
+            filter: grayscale(100%);
+        }
+    </style>
 </head>
 
 <body>
@@ -49,6 +110,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <li class="nav-item">
                             <a class="nav-link" href="<?= base_url("Homepage/contact"); ?>">Contact Page</a>
                         </li>
+                        <li class="nav-item">
+                            <a style="background-color: #9C1718;border-color:#9C1718;font-size:14px;" href="<?= base_url("Homepage/register"); ?>" class="btn btn-danger ">Register</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -60,7 +124,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <!-- inner banner -->
     <div class="inner-banner">
         <div class="w3l-breadcrumb">
-            <div class="container">
+            <div class="container h-50">
                 <h4 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2" style="text-align:left">Shaping the best generation in the digital era</h4>
                 <p style="color:white;text-align:left !important">Shaping the best generation in the digital era</p>
             </div>
@@ -81,9 +145,21 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="content-sec-11">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <img class="center" src="<?= base_url('assets'); ?>/images/Frame 1288.png">
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-4 col-md-2 mb-5">
+                            <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/everida.png">
+                        </div>
+                        <div class="col-3 col-md-2 mb-5">
+                            <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/pemimpin.png">
+                        </div>
+                        <div class="col-3 col-md-2 mb-5">
+                            <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/sbmitb.png">
+                        </div>
+                        <div class="col-3 col-md-2 mt-3 mt-md-0 mb-5">
+                            <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/paragon.png">
+                        </div>
+                        <div class="col-3 col-md-2 mt-3 mt-md-0 mb-5">
+                            <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/maxima.png">
                         </div>
                     </div>
                 </div>
@@ -99,8 +175,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="row justify-content-center">
                     <div class="col-md-8">
                         <div class="section-heading text-center mb-sm-5 mb-4">
-                            <h3 class="title-style mb-2" style="color:#9B191B">About Us</h3>
-                            <p>The current Covid-19 pandemic does not only affect the health sector but also affects the social sector of the Indonesian people. The limitations of these social activities have changed many things, one example is education activities that must be done online. Communication that occurs in Indonesian society at this time is also considered not good or ineffective so that it is enough to cause unrest in the community. The contributors will create social movements that will certainly help the community in dealing with unrest in this social field.</p>
+                            <h3 class="title-style  text-md-center text-left mb-4 mb-md-2" style="color:#9B191B">About Us</h3>
+                            <p class="text-md-center text-left">The current Covid-19 pandemic does not only affect the health sector but also affects the social sector of the Indonesian people. The limitations of these social activities have changed many things, one example is education activities that must be done online. Communication that occurs in Indonesian society at this time is also considered not good or ineffective so that it is enough to cause unrest in the community. The contributors will create social movements that will certainly help the community in dealing with unrest in this social field.</p>
                         </div>
                     </div>
                 </div>
@@ -121,43 +197,52 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                <div class="content-sec-11" style="position: relative">
-                    <div class="row justify-content-center">
-                        <div class="col-md-4">
-                            <div class="section-heading text-center mb-sm-5 mb-2">
-                                <h3 class="title-style mb-2" style="color:#9B191B; margin-left:-100%">Program</h3>
+                <div class="content-sec-11">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="section-heading text-left mb-sm-5 mb-2">
+                                <h3 class="title-style mb-2" style="color:#9B191B;">Programs</h3>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row justify-content-center align-items-center">
+                        <div class="col-md-6">
+                            <div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')" class="profile-card-2">
+                                <div class="wrap-profile mx-5">
+                                    <div class="profile-name ">Mini MBA Social Innovation</div>
+                                    <div class="profile-username ">The Mini MBA Social Innovation is a fast-track mini MBA format that aims to strengthen strategic insights and key knowledge that drive social innovation, as well as to build a network of leaders and ecosystem networks that drive social transformation.</div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-6">
+                            <div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')" class="profile-card-2">
+
+                                <div class="wrap-profile mx-5">
+                                    <div class="profile-name ">Mini MBA by Rumah Amal Salman</div>
+                                    <div class="profile-username  mb-4">Rumah Amal Salman is an institution that manages zakat, infaq, alms, and other virtues that focus on the fields of education and technology.</div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="row" style="margin-left:-5%;">
-                        <div class="col-lg-6">
-                            <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 764.png">
-                            <h5 style="margin-left:5%;color:#fff;margin-top:-40%;margin-left:10%"><b>Mini MBA Social Innovation</b></h5>
-                            <h6 style="margin-left:5%;color:#fff;margin-left:10%">The Mini MBA Social Innovation is a fast-track mini MBA format that aims to strengthen strategic insights and key knowledge that drive social innovation, as well as to build a network of leaders and ecosystem networks that drive social transformation.</h6>
+                        <div class="col-md-6">
+                            <div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')" class="profile-card-2">
+                                <div class="wrap-profile mx-5">
+                                    <div class="profile-name ">More Initiative Programs</div>
+                                    <div class="profile-username ">The Mini MBA Social Innovation is a fast-track mini MBA format that aims to strengthen strategic insights and key knowledge that drive social innovation, as well as to build a network of leaders and ecosystem networks that drive social transformation.</div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-lg-6">
-                            <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 769.png">
-                            <h5 style="margin-left:5%;color:#fff;margin-top:-40%;margin-left:10%"><b>Mini MBA by Rumah Amal Salman</b></h5>
-                            <h6 style="margin-left:5%;color:#fff;margin-left:10%">Rumah Amal Salman is an institution that manages zakat, infaq, alms, and other virtues that focus on the fields of education and technology. </h6>
-                        </div>
-                    </div>
-                    <div class="row" style="margin-left:-5%;margin-top:5%">
-                        <div class="col-lg-6">
-                            <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 764.png">
-                            <h5 style="margin-left:5%;color:#fff;margin-top:-40%;margin-left:10%"><b>More Initiative Programs</b></h5>
-                            <h6 style="margin-left:5%;color:#fff;margin-left:10%">The Mini MBA Social Innovation is a fast-track mini MBA format that aims to strengthen strategic insights and key knowledge that drive social innovation, as well as to build a network of leaders and ecosystem networks that drive social transformation.</h6>
-                        </div>
-                        <div class="col-lg-6">
-                            <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 769.png">
-                            <h5 style="margin-left:5%;color:#fff;margin-top:-40%;margin-left:10%"><b>Admission</b></h5>
-                            <h6 style="margin-left:5%;color:#fff;margin-left:10%">Rumah Amal Salman is an institution that manages zakat, infaq, alms, and other virtues that focus on the fields of education and technology. </h6>
+                        <div class="col-md-6">
+                            <div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')" class="profile-card-2">
+                                <div class="wrap-profile mx-5">
+                                    <div class="profile-name ">Admission</div>
+                                    <div class="profile-username ">The Mini MBA Social Innovation is a fast-track mini MBA format that aims to strengthen strategic insights and key knowledge that drive social innovation, as well as to build a network of leaders and ecosystem networks that drive social transformation.</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     <!-- //call section -->
 
@@ -165,7 +250,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <!-- call section -->
     <section class="w3l-call-to-action-6">
-        <div class="call-sec-style py-5">
+        <div class="call-sec-style ">
             <div class="container py-md-4 py-3">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
@@ -179,22 +264,22 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="row justify-content-center">
                         <div class="col-md-4">
                             <div class="section-heading text-center mb-sm-5 mb-2">
-                                <h3 class="title-style mb-2" style="color:#9B191B; margin-left:-100%">Innovation</h3>
+                                <h3 class="title-style mb-2 text-left text-md-center" style="color:#9B191B; ">Innovation</h3>
                             </div>
                         </div>
                         <div class="col-md-6">
                         </div>
                     </div>
-                    <div class="row" style="margin-left:-5%;">
+                    <div class="row">
                         <div class="col-lg-6">
-                            <img class="center" src="<?= base_url('assets'); ?>/images/knowledge 1.png">
-                            <h5 style="margin-left:5%;color:#000;margin-top:2%"><b>More Initiative Projects</b></h5>
-                            <h6 style="margin-left:5%;color:#000;">In this program, the innovative results that can be seen from the learning activity process are participants who are fostered to be able to gain new insights and knowledge, skills in technology, and skills needed in the 21st Century.</h6>
+                            <img class="text-left text-md-center img-responsive my-4" src="<?= base_url('assets'); ?>/images/premium-quality 1.png">
+                            <h5 style="color:#000;"><b>More Initiative Projects</b></h5>
+                            <h6 style="color:#000;">In this program, the innovative results that can be seen from the learning activity process are participants who are fostered to be able to gain new insights and knowledge, skills in technology, and skills needed in the 21st Century.</h6>
                         </div>
                         <div class="col-lg-6">
-                            <img class="center" src="<?= base_url('assets'); ?>/images/premium-quality 1.png">
-                            <h5 style="margin-left:5%;color:#000;margin-top:2%"><b>Impact</b></h5>
-                            <h6 style="margin-left:5%;color:#000;">From the initiative projects that have been described previously, the positive impact that can be shared with the general public is that the students who are fostered can become people who have broad knowledge.</h6>
+                            <img class="text-left text-md-center img-responsive my-4" src="<?= base_url('assets'); ?>/images/knowledge 1.png">
+                            <h5 style="color:#000;"><b>Impact</b></h5>
+                            <h6 style="color:#000;">From the initiative projects that have been described previously, the positive impact that can be shared with the general public is that the students who are fostered can become people who have broad knowledge.</h6>
                         </div>
                     </div>
                 </div>
@@ -219,7 +304,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="row justify-content-center">
                         <div class="col-md-4">
                             <div class="section-heading text-center mb-sm-5 mb-2">
-                                <h3 class="title-style mb-2" style="color:#9B191B; margin-left:-100%">Event</h3>
+                                <h3 class="title-style mb-2" style="color:#9B191B;">Event</h3>
                             </div>
                         </div>
                         <div class="col-md-6">

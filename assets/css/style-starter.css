@@ -733,8 +733,7 @@ pre code {
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+
 }
 
 .no-gutters {
@@ -8455,6 +8454,9 @@ button.bg-dark:focus {
 
 .vw-100 {
   width: 100vw !important;
+}
+.vh-75 {
+  height: 75vh !important;
 }
 
 .vh-100 {
@@ -16274,7 +16276,7 @@ img.center {
   -ms-background-size: cover;
   min-height: 500px;
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
 .inner-banner-about::before {
@@ -16585,3 +16587,4 @@ h5.contact-text {
   margin-top:10%;
   margin-bottom:5%;
 }
+

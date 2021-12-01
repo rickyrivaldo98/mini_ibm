@@ -1,6 +1,3 @@
-<?php
-defined('BASEPATH') or exit('No direct script access allowed');
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -15,14 +12,19 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+    </style>
 </head>
+
 
 <body>
     <!--header-->
     <header id="site-header" class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg stroke">
-                <!-- <img class="navbar-brand" style="margin-top:-15px" src="<?= base_url('assets'); ?>/images/Mask Group.png"> -->
                 <h1><a class="nav-link" style="color:white" href="<?= base_url("Homepage"); ?>">Mini MBA</a></h1>
                 <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
@@ -49,6 +51,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <li class="nav-item">
                             <a class="nav-link" href="<?= base_url("Homepage/contact"); ?>">Contact Page</a>
                         </li>
+                        <li class="nav-item">
+                            <a style="background-color: #9C1718;border-color:#9C1718;font-size:14px;" href="<?= base_url("Homepage/register"); ?>" class="btn btn-danger ">Register</a>
+                        </li>
 
                     </ul>
                 </div>
@@ -71,31 +76,34 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <!-- call section -->
     <section class="w3l-call-to-action-6" style="margin-top:5%;margin-bottom:5%;">
         <div class="call-sec-style py-5">
-            <div class="row justify-content-center">
-                <div class="col-md-4">
-                    <div class="section-heading text-center mb-sm-5 mb-2">
-                        <h3 class="title-style mb-2" style="color:#9B191B; margin-left:-35%">Journals & Insight</h3>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-4">
+                        <div class="section-heading text-center mb-sm-5 mb-2">
+                            <h3 class="title-style mb-2 text-left" style="color:#9B191B; ">Journals & Insight</h3>
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
                 </div>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-md-9">
-                    <div class="container-ibm py-md-4 py-3" style="margin-bottom:5%;margin-left:5%;">
-                        <div class="row justify-content-center">
+
+            <div class=" d-flex flex-wrap mb-5">
+                <div class="col-md-9 col-12">
+                    <div class="container-ibm py-md-4 py-3">
+                        <div class="row">
                             <div class="col-md-12">
-                                <div class="section-heading text-center mb-sm-5 mb-4">
-                                    <a class="nav-link" href="<?= base_url("Homepage/journal_detail"); ?>">
-                                        <h3 class="title-style" style="color:#000000">Nao Partikel: Properties, application, and Toxies</h3>
-                                    </a>
-                                    <div class="row">
-                                        <div class="col-md-2" style="margin-left:10%">
-                                            <p style="text-align: justify;">John Doe</p>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <p style="text-align: justify;">Health Journal</p>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a class="nav-link text-left" href="<?= base_url("Homepage/journal_detail"); ?>">
+                                            <h3 class="title-style" style="color:#000000">Nao Partikel: Properties, application, and Toxies</h3>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                        <div class="d-flex justify-content-around justify-content-md-between">
+                                            <p>John Doe</p>
+                                            <p>Health Journal</p>
                                         </div>
                                     </div>
                                 </div>
@@ -103,27 +111,38 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank" style="text-align: justify;margin-left:30%;color:blue;">View PDF</a>
-                    <a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-2 py-1" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 12px;margin-left:22%;">Download PDF</a>
+                <div class="col-md-3 col-12 m-auto text-center ">
+                    <div class="row justify-content-center mt-3">
+                        <div class="col-md-12">
+                            <a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank" style="text-align: justify;color:blue;">View PDF</a>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-2 py-1" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 12px;">Download PDF</a>
+
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-md-9">
-                    <div class="container-ibm py-md-4 py-3" style="margin-bottom:5%;margin-left:5%;">
-                        <div class="row justify-content-center">
+            <div class="d-flex flex-wrap mb-5">
+                <div class="col-md-9 col-12">
+                    <div class="container-ibm py-md-4 py-3">
+                        <div class="row">
                             <div class="col-md-12">
-                                <div class="section-heading text-center mb-sm-5 mb-4">
-                                    <a class="nav-link" href="<?= base_url("Homepage/journal_detail"); ?>">
-                                        <h3 class="title-style" style="color:#000000">Nao Partikel: Properties, application, and Toxies</h3>
-                                    </a>
-                                    <div class="row">
-                                        <div class="col-md-2" style="margin-left:10%">
-                                            <p style="text-align: justify;">John Doe</p>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <p style="text-align: justify;">Health Journal</p>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a class="nav-link text-left" href="<?= base_url("Homepage/journal_detail"); ?>">
+                                            <h3 class="title-style" style="color:#000000">Nao Partikel: Properties, application, and Toxies</h3>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                        <div class="d-flex justify-content-around justify-content-md-between">
+                                            <p>John Doe</p>
+                                            <p>Health Journal</p>
                                         </div>
                                     </div>
                                 </div>
@@ -131,27 +150,37 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank" style="text-align: justify;margin-left:30%;color:blue;">View PDF</a>
-                    <a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-2 py-1" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 12px;margin-left:22%;">Download PDF</a>
+                <div class="col-md-3 col-12 m-auto text-center ">
+                    <div class="row justify-content-center mt-3">
+                        <div class="col-md-12">
+                            <a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank" style="text-align: justify;color:blue;">View PDF</a>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-2 py-1" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 12px;">Download PDF</a>
+
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            <div class="row justify-content-center">
-                <div class="col-md-9">
-                    <div class="container-ibm py-md-4 py-3" style="margin-bottom:5%;margin-left:5%;">
-                        <div class="row justify-content-center">
+            <div class="d-flex flex-wrap mb-5">
+                <div class="col-md-9 col-12">
+                    <div class="container-ibm py-md-4 py-3">
+                        <div class="row">
                             <div class="col-md-12">
-                                <div class="section-heading text-center mb-sm-5 mb-4">
-                                    <a class="nav-link" href="<?= base_url("Homepage/journal_detail"); ?>">
-                                        <h3 class="title-style" style="color:#000000">Nao Partikel: Properties, application, and Toxies</h3>
-                                    </a>
-                                    <div class="row">
-                                        <div class="col-md-2" style="margin-left:10%">
-                                            <p style="text-align: justify;">John Doe</p>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <p style="text-align: justify;">Health Journal</p>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <a class="nav-link text-left" href="<?= base_url("Homepage/journal_detail"); ?>">
+                                            <h3 class="title-style" style="color:#000000">Nao Partikel: Properties, application, and Toxies</h3>
+                                        </a>
+                                    </div>
+                                    <div class="col-1">
+                                    </div>
+                                    <div class="col-12 col-md-3">
+                                        <div class="d-flex justify-content-around justify-content-md-between">
+                                            <p>John Doe</p>
+                                            <p>Health Journal</p>
                                         </div>
                                     </div>
                                 </div>
@@ -159,9 +188,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
-                    <a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank" style="text-align: justify;margin-left:30%;color:blue;">View PDF</a>
-                    <a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-2 py-1" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 12px;margin-left:22%;">Download PDF</a>
+                <div class="col-md-3 col-12 m-auto text-center ">
+                    <div class="row justify-content-center mt-3">
+                        <div class="col-md-12">
+                            <a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank" style="text-align: justify;color:blue;">View PDF</a>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-12">
+                            <a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-2 py-1" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 12px;">Download PDF</a>
+
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -256,9 +294,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <!-- Js scripts -->
     <!-- move top -->
-    <button onclick="topFunction()" id="movetop" title="Go to top">
+    <!-- <button onclick="topFunction()" id="movetop" title="Go to top">
         <span class="fa fa-level-up" aria-hidden="true"></span>
-    </button>
+    </button> -->
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function() {

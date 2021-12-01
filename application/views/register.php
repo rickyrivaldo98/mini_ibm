@@ -15,6 +15,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
+    <link rel="stylesheet" href="<?= base_url('assets'); ?>/css/custom.css">
+
 </head>
 
 <body>
@@ -34,7 +36,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <li class="nav-item">
                             <a class="nav-link" href="<?= base_url("Homepage/program"); ?>">Program</a>
                         </li>
-                        <li class="nav-item active">
+                        <li class="nav-item">
                             <a class="nav-link" href="<?= base_url("Homepage/journal"); ?>">Insight & Journal</a>
                         </li>
                         <li class="nav-item">
@@ -46,10 +48,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <li class="nav-item">
                             <a class="nav-link" href="<?= base_url("Homepage/news"); ?>">News</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item ">
                             <a class="nav-link" href="<?= base_url("Homepage/contact"); ?>">Contact Page</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item active">
                             <a style="background-color: #9C1718;border-color:#9C1718;font-size:14px;" href="<?= base_url("Homepage/register"); ?>" class="btn btn-danger ">Register</a>
                         </li>
 
@@ -62,57 +64,134 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <!--//header-->
 
     <!-- inner banner -->
-    <div class="inner-banner-news">
+    <div class="inner-banner-about">
         <div class="w3l-breadcrumb">
             <div class="container">
-                <h4 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2" style="text-align:left">Journals & Insight</h4>
+
             </div>
         </div>
     </div>
     <!-- //inner banner -->
 
-    <!-- call section -->
-    <section class="w3l-call-to-action-6" style="margin-top:5%;margin-bottom:5%;">
-        <div class="call-sec-style py-5">
-            <div class="row justify-content-center">
-                <div class="col-md-12">
-                    <div class="section-heading text-center mb-sm-5 mb-2">
-                        <h3 class="title-style mb-2" style="color:#9B191B;">Nanoparticles: Properties, applications and toxicities</h3>
+    <div class="form-register">
+        <div class="container">
+            <div class="row p-2">
+                <div class="col-12 col-md-4 register-info">
+                    <div class="image-left">
                     </div>
                 </div>
-                <div class="col-12 col-md-3">
-                    <div class="d-flex justify-content-around justify-content-md-between">
-                        <a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank" style="color:blue;">View PDF</a>
-                        <a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-2 py-1" style="background-color: #9B191B; color:white;border-radius: 12px;">Download PDF</a>
+                <div class=" col-12 col-lg-8 form-contact-info">
+                    <div class="wrapper-form-info">
+                        <div class="row">
+                            <div class="col-12 mb-5">
+                                <h4 style="font-weight: 600;">Mini MBA - Social Innovation</h4>
+                            </div>
+                            <div class="col-12  mb-3">
+                                <label style="color: #C0C0C0;">Full Name <span style="color: #9C1718;"> *</span> </label>
+                                <input type="text" placeholder="" name="fullname">
+                            </div>
 
+                            <div class="col-12 mb-3 ">
+                                <label style="color: #C0C0C0;">Mobile Number <span style="color: #9C1718;"> *</span> </label>
+                                <input type="text" placeholder="" name="mobile_number">
+                            </div>
+                            <div class="col-12 mb-3 ">
+                                <label style="color: #C0C0C0;">Email<span style="color: #9C1718;"> *</span> </label>
+                                <input type="email" placeholder="" name="email">
+                            </div>
+                            <div class="col-12 mb-3 ">
+                                <label style="color: #C0C0C0;">Current Position or Job Title<span style="color: #9C1718;"> *</span> </label>
+                                <br>
+                                <div class="select-box">
+                                    <div class="select-box__current" tabindex="1">
+                                        <div class="select-box__value">
+                                            <input class="select-box__input" type="radio" id="0" value="1" name="Ben" checked="checked" />
+                                            <p class="select-box__input-text">Cream</p>
+                                        </div>
+                                        <div class="select-box__value">
+                                            <input class="select-box__input" type="radio" id="1" value="2" name="Ben" />
+                                            <p class="select-box__input-text">Cheese</p>
+                                        </div>
+                                        <div class="select-box__value">
+                                            <input class="select-box__input" type="radio" id="2" value="3" name="Ben" />
+                                            <p class="select-box__input-text">Milk</p>
+                                        </div>
+                                        <div class="select-box__value">
+                                            <input class="select-box__input" type="radio" id="3" value="4" name="Ben" />
+                                            <p class="select-box__input-text">Honey</p>
+                                        </div>
+                                        <div class="select-box__value">
+                                            <input class="select-box__input" type="radio" id="4" value="5" name="Ben" />
+                                            <p class="select-box__input-text">Toast</p>
+                                        </div><img class="select-box__icon" src="http://cdn.onlinewebfonts.com/svg/img_295694.svg" alt="Arrow Icon" aria-hidden="true" />
+                                    </div>
+                                    <ul class="select-box__list">
+                                        <li>
+                                            <label class="select-box__option" for="0" aria-hidden="aria-hidden">Cream</label>
+                                        </li>
+                                        <li>
+                                            <label class="select-box__option" for="1" aria-hidden="aria-hidden">Cheese</label>
+                                        </li>
+                                        <li>
+                                            <label class="select-box__option" for="2" aria-hidden="aria-hidden">Milk</label>
+                                        </li>
+                                        <li>
+                                            <label class="select-box__option" for="3" aria-hidden="aria-hidden">Honey</label>
+                                        </li>
+                                        <li>
+                                            <label class="select-box__option" for="4" aria-hidden="aria-hidden">Toast</label>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3 ">
+                                <label style="color: #C0C0C0;">Current Position or Job Title<span style="color: #9C1718;"> *</span> </label>
+                                <input type="text" placeholder="">
+                            </div>
+                            <div class="col-12 mb-3 ">
+                                <label style="color: #C0C0C0;">Experience in the industry (Years)<span style="color: #9C1718;"> *</span> </label>
+                                <input type="text" placeholder="">
+                            </div>
+                            <div class="col-12 mb-3 ">
+                                <label style="color: #C0C0C0;">Motivation Statment<span style="color: #9C1718;"> *</span> </label>
+                                <input type="text" placeholder="">
+                            </div>
+                            <div class="col-12 mb-3 ">
+                                <label class="mb-3" style="color: #C0C0C0;">Curiculum Vitae (CV) <span style="color: #9C1718;">*</span> </label>
+                                <div class="file-input">
+                                    <input type="file" id="file" class="file">
+                                    <label for="file">
+                                        Add file *
+                                        <p class="file-name"></p>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="col-12 mb-3 ">
+                                <label class="mb-3" style="color: #C0C0C0; overflow-wrap:anywhere;">Change Project (Template: https://bit.ly/ChangeProjectTemplate) <span style="color: #9C1718;">*</span> </label>
+                                <div class="file-input">
+                                    <input type="file" id="file" class="file">
+                                    <label for="file">
+                                        Add file *
+                                        <p class="file-name"></p>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class=" col-12 text-center text-md-left  mt-5">
+                                <div class="d-flex justify-content-between">
+                                    <a id="clear-button" href="" class="btn btn-outline-dark btn-clear">Clear From</a>
+
+                                    <a id="send-button" href="" class="btn btn-danger btn-submit">Submit</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+
+
             </div>
-
-            <div class="row justify-content-center" style="margin-top:3%">
-                <div class="col-md-10">
-                    <p style="text-align: justify">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, velit, nibh neque ultricies massa sit. Nullam posuere non consectetur tristique. Facilisis ipsum erat lorem lobortis aliquam urna non. Est, pharetra viverra tempus est et. Ac in suspendisse gravida ut arcu porttitor bibendum turpis. Magnis enim eu nunc varius feugiat. Metus, leo sed etiam molestie diam. Luctus ut massa tempus eget sit aenean in dolor. Massa accumsan pulvinar a sit venenatis viverra pellentesque viverra.
-                    </p>
-                    <p style="text-align: justify">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, velit, nibh neque ultricies massa sit. Nullam posuere non consectetur tristique. Facilisis ipsum erat lorem lobortis aliquam urna non. Est, pharetra viverra tempus est et. Ac in suspendisse gravida ut arcu porttitor bibendum turpis. Magnis enim eu nunc varius feugiat. Metus, leo sed etiam molestie diam. Luctus ut massa tempus eget sit aenean in dolor. Massa accumsan pulvinar a sit venenatis viverra pellentesque viverra.
-                    </p>
-                    <p style="text-align: justify">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, velit, nibh neque ultricies massa sit. Nullam posuere non consectetur tristique. Facilisis ipsum erat lorem lobortis aliquam urna non. Est, pharetra viverra tempus est et. Ac in suspendisse gravida ut arcu porttitor bibendum turpis. Magnis enim eu nunc varius feugiat. Metus, leo sed etiam molestie diam. Luctus ut massa tempus eget sit aenean in dolor. Massa accumsan pulvinar a sit venenatis viverra pellentesque viverra.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, velit, nibh neque ultricies massa sit. Nullam posuere non consectetur tristique. Facilisis ipsum erat lorem lobortis aliquam urna non. Est, pharetra viverra tempus est et. Ac in suspendisse gravida ut arcu porttitor bibendum turpis. Magnis enim eu nunc varius feugiat. Metus, leo sed etiam molestie diam. Luctus ut massa tempus eget sit aenean in dolor. Massa accumsan pulvinar a sit venenatis viverra pellentesque viverra.
-                    </p>
-                    <p>
-                        <img src="<?= base_url('assets'); ?>/images/image 14.png" class="center">
-                    </p>
-                    <p style="text-align: justify">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit, velit, nibh neque ultricies massa sit. Nullam posuere non consectetur tristique. Facilisis ipsum erat lorem lobortis aliquam urna non. Est, pharetra viverra tempus est et. Ac in suspendisse gravida ut arcu porttitor bibendum turpis. Magnis enim eu nunc varius feugiat. Metus, leo sed etiam molestie diam. Luctus ut massa tempus eget sit aenean in dolor. Massa accumsan pulvinar a sit venenatis viverra pellentesque viverra.
-                    </p>
-                </div>
-            </div>
-
-
         </div>
-    </section>
-    <!-- //call section -->
+    </div>
 
     <!-- footer -->
     <section class="w3l-footer-29-main">
@@ -204,6 +283,23 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <button onclick="topFunction()" id="movetop" title="Go to top">
         <span class="fa fa-level-up" aria-hidden="true"></span>
     </button>
+    <script>
+        const file = document.querySelector('#file');
+        file.addEventListener('change', (e) => {
+            // Get the selected file
+            const [file] = e.target.files;
+            // Get the file name and size
+            const {
+                name: fileName,
+                size
+            } = file;
+            // Convert size in bytes to kilo bytes
+            const fileSize = (size / 1000).toFixed(2);
+            // Set the text content
+            const fileNameAndSize = `${fileName} - ${fileSize}KB`;
+            document.querySelector('.file-name').textContent = fileNameAndSize;
+        });
+    </script>
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
         window.onscroll = function() {

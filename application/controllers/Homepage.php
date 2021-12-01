@@ -51,4 +51,8 @@ class Homepage extends CI_Controller
     {
         $this->load->view('events_detail');
     }
+    public function register()
+    {
+        $this->load->view('register');
+    }
 }

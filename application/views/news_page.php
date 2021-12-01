@@ -49,6 +49,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <li class="nav-item">
                             <a class="nav-link" href="<?= base_url("Homepage/contact"); ?>">Contact Page</a>
                         </li>
+                        <li class="nav-item">
+                            <a style="background-color: #9C1718;border-color:#9C1718;font-size:14px;" href="<?= base_url("Homepage/register"); ?>" class="btn btn-danger ">Register</a>
+                        </li>
                     </ul>
                 </div>
 

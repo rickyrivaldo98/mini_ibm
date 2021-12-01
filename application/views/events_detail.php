@@ -15,6 +15,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
+
 </head>
 
 
@@ -49,6 +50,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="<?= base_url("Homepage/contact"); ?>">Contact Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="background-color: #9C1718;border-color:#9C1718;font-size:14px;" href="<?= base_url("Homepage/register"); ?>" class="btn btn-danger ">Register</a>
                         </li>
                     </ul>
                 </div>
@@ -94,7 +98,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <h5 class="card-title font-weight-bold">Webinar Technology</h5>
                             <h6 style="color:#9C1718"><i class="fa fa-calendar" aria-hidden="true"></i><b> 20 May 2021</b></h6>
                             <hr>
-                            <div class="d-flex">
+                            <div class="d-flex flex-wrap">
                                 <div class="mr-5">
                                     <div class="mb-3 font-weight-bold">Hosted By</div>
                                     <img class="footer-title-29" style="margin-left:-35px" src="<?= base_url('assets'); ?>/images/Mask Group merah.png">
@@ -107,11 +111,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </div>
                                 <div>
                                     <div class="mb-3 font-weight-bold">Share</div>
-                                    <div class="d-flex">
-                                        <div>1</div>
-                                        <div>2</div>
-                                        <div>3</div>
-
+                                    <div class="d-flex ">
+                                        <a href="#facebook" class="facebook mr-2"><span class="fa fa-facebook"></span></a>
+                                        <a href="#facebook" class="instagram mr-2"><span class="fa fa-instagram"></span></a>
+                                        <a href="#facebook" class="youtube mr-2"><span class="fa fa-youtube"></span></a>
                                     </div>
                                 </div>
                             </div>
@@ -144,7 +147,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="row justify-content-center">
                         <div class="col-md-4">
                             <div class="section-heading text-center mb-sm-5 mb-2">
-                                <h3 class="title-style mb-2" style="color:#9B191B; margin-left:-100%">Other Events</h3>
+                                <h3 class="title-style mb-4 text-left" style="color:#9B191B;">Other Events</h3>
                             </div>
                         </div>
                         <div class="col-md-6">

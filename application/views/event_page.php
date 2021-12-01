@@ -15,6 +15,66 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <!-- //google-fonts -->
     <!-- Template CSS Style link -->
     <link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
+    <style>
+        .profile-card-2 {
+            max-width: 100%;
+            background-position: center;
+            overflow: hidden;
+            position: relative;
+            margin: 2px auto;
+            /* cursor: pointer; */
+            border-radius: 30px;
+            height: 500px;
+            background-position: center;
+            background-size: cover;
+            transition: all linear 0.25s;
+        }
+
+        .profile-card-2 img {
+            transition: all linear 0.25s;
+        }
+
+
+
+        .profile-card-2 .wrap-profile {
+            position: absolute;
+            left: 20px;
+            bottom: 100px;
+            /* font-size: 20px; */
+            color: #FFF;
+            text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+            /* font-weight: bold; */
+        }
+
+        @media screen and (max-width: 768px) {
+            .profile-card-2 .wrap-profile {
+                bottom: 50px;
+
+            }
+        }
+
+        .profile-card-2 .profile-name {
+            left: 20px;
+            font-size: 20px;
+            color: #FFF;
+            text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+            font-weight: bold;
+        }
+
+        .profile-card-2 .profile-username {
+            left: 20px;
+            color: #FFF;
+            font-size: 13px;
+        }
+
+        .profile-card-2 .profile-icons .fa {
+            margin: 5px;
+        }
+
+        .profile-card-2:hover {
+            filter: grayscale(100%);
+        }
+    </style>
 </head>
 
 
@@ -50,6 +110,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <li class="nav-item">
                             <a class="nav-link" href="<?= base_url("Homepage/contact"); ?>">Contact Page</a>
                         </li>
+                        <li class="nav-item">
+                            <a style="background-color: #9C1718;border-color:#9C1718;font-size:14px;" href="<?= base_url("Homepage/register"); ?>" class="btn btn-danger ">Register</a>
+                        </li>
                     </ul>
                 </div>
 
@@ -82,7 +145,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                <div class="content-sec-11" style="position: relative">
+                <!-- <div class="content-sec-11" style="position: relative">
                     <div class="row justify-content-center">
                         <div class="col-md-4">
                             <div class="section-heading text-center mb-sm-5 mb-2">
@@ -104,6 +167,32 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <h6 style="margin-left:5%;color:#fff;margin-top:-40%;margin-left:10%"><i class="fa fa-calendar" aria-hidden="true"></i><b> 11 May 2021</b></h6>
                             <h5 style="margin-left:5%;color:#fff;margin-left:10%"><b>Webinar Technologi</b></h5>
                             <h6 style="margin-left:5%;color:#fff;margin-left:10%">Festival edukasi tentang teknologi yang berlangsung 4 hari ini, akan memberi kamu pengetahuan dan ilmu yang banyak sekali!</h6>
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-12">
+                        <div class="section-heading text-center mb-sm-5 mb-2">
+                            <h3 class="title-style mb-2" style="color:#9B191B; ">Top Selling</h3>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')" class="profile-card-2">
+                            <div class="wrap-profile mx-5">
+                                <div class="profile-username "><i class="fa fa-calendar" aria-hidden="true"></i><b> 11 May 2021</b></div>
+                                <div class="profile-name ">Webinar Technologi</div>
+                                <div class="profile-username ">Festival edukasi tentang teknologi yang berlangsung 4 hari ini, akan memberi kamu pengetahuan dan ilmu yang banyak sekali!</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')" class="profile-card-2">
+                            <div class="wrap-profile mx-5">
+                                <div class="profile-username "><i class="fa fa-calendar" aria-hidden="true"></i><b> 11 May 2021</b></div>
+                                <div class="profile-name ">Webinar Technologi</div>
+                                <div class="profile-username ">Festival edukasi tentang teknologi yang berlangsung 4 hari ini, akan memberi kamu pengetahuan dan ilmu yang banyak sekali!</div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -128,7 +217,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="row justify-content-center">
                         <div class="col-md-4">
                             <div class="section-heading text-center mb-sm-5 mb-2">
-                                <h3 class="title-style mb-2" style="color:#9B191B; margin-left:-100%">Event</h3>
+                                <h3 class="title-style mb-2 text-left" style="color:#9B191B; ">Event</h3>
                             </div>
                         </div>
                         <div class="col-md-6">
