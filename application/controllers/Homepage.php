@@ -38,7 +38,6 @@ class Homepage extends CI_Controller
     {
         $this->load->view('journal');
     }
-
     public function journal_detail()
     {
         $this->load->view('journal_detail');
@@ -54,5 +53,33 @@ class Homepage extends CI_Controller
     public function register()
     {
         $this->load->view('register');
+    }
+    public function mini_mba()
+    {
+        $this->load->view('miniMBA_page');
+    }
+    public function facilitator_mini_mba()
+    {
+        $this->load->view('facilitator_minimba_page');
+    }
+    public function program_mini_mba()
+    {
+        $this->load->view('program_minimba_page');
+    }
+    public function program_detail_mini_mba()
+    {
+        $this->load->view('program_detail_minimba_page');
+    }
+    public function rumah_amal()
+    {
+        $this->load->view('rumah_amal_page');
+    }
+    public function program_rumah_amal()
+    {
+        $this->load->view('program_rumah_amal_page');
+    }
+    public function program_detail_rumah_amal()
+    {
+        $this->load->view('program_detail_rumah_amal_page');
     }
 }
