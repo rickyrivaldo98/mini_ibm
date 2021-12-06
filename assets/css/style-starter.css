@@ -15029,7 +15029,7 @@ a.navbar-brand:hover {
 .navbar-expand-lg .navbar-nav .nav-link {
   padding: 6px 10px;
   font-size: 15px;
-  color: #fff;
+  color: #000;
   opacity: .8;
   font-weight: 500;
 }
@@ -15147,6 +15147,8 @@ nav ul li a:hover {
   color: #F5F7FB;
   opacity: 1;
 }
+
+
 
 .nav-fixed .navbar-brand {
   color: var(--heading-color);
@@ -16232,7 +16234,7 @@ img.center {
   -moz-background-size: cover;
   -o-background-size: cover;
   -ms-background-size: cover;
-  min-height: 300px;
+  min-height: 537px;
   position: relative;
   z-index: 1;
 }
@@ -16332,7 +16334,7 @@ img.center {
   }
 
   .w3l-breadcrumb {
-    padding-top: 120px;
+    /* padding-top: 120px; */
   }
 
   .breadcrumbs-custom-path li {
@@ -16350,7 +16352,7 @@ img.center {
   }
 
   .w3l-breadcrumb {
-    padding-top: 100px;
+    padding-top: 50px;
   }
 }
 

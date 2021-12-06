@@ -29,6 +29,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			background-position: center;
 			background-size: cover;
 			transition: all linear 0.25s;
+			border-radius: 20px;
 		}
 
 		.profile-card-2 img {
@@ -36,6 +37,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		}
 
 		.profile-card-3 {
+
 			max-width: 100%;
 			background-position: center;
 			overflow: hidden;
@@ -110,6 +112,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="col-md-12">
 							<div class="section-heading text-center mb-5">
 								<h3 class="title-style mb-2" style="color:#07B0C8;">Programs Content</h3>
+								<p>We prepare the best program to produce great leaders for the future and welcome <br> the acceleration of technology in Indonesia.</p>
 							</div>
 						</div>
 					</div>
@@ -118,7 +121,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')"
 								class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url (). 'Homepage/program_detail_rumah_amal' ?>">
+									<a href=" <?= base_url (). 'Homepage/program_initiative_details' ?>">
 										<div class="profile-name ">Week 1</div>
 										<div class="profile-username ">Festival Edukasi Tentang teknologi yang
 											berlangsung 4
@@ -132,7 +135,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								class="profile-card-2">
 
 								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url (). 'Homepage/program_detail_rumah_amal' ?>">
+									<a href=" <?= base_url (). 'Homepage/program_initiative_details' ?>">
 										<div class="profile-name ">Webinar Technology</div>
 									</a>
 									<div class="profile-username ">Festival Edukasi Tentang teknologi yang berlangsung 4
@@ -140,78 +143,36 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')"
-								class="profile-card-2">
-								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url (). 'Homepage/program_detail_rumah_amal' ?>">
-										<div class="profile-name ">Belanja Buku Bersama Anak Teladan</div>
-									</a>
-
-									<div class="profile-username ">On Boarding</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-4">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')"
-								class="profile-card-2">
-								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url (). 'Homepage/program_detail_rumah_amal' ?>">
-										<div class="profile-name ">Week 1</div>
-										<div class="profile-username ">On Boarding</div>
-									</a>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
+						<div class="col-md-6">
 							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')"
 								class="profile-card-2">
 
 								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url (). 'Homepage/program_detail_rumah_amal' ?>">
-										<div class="profile-name ">Week 1</div>
-										<div class="profile-username ">On Boarding</div>
+									<a href=" <?= base_url (). 'Homepage/program_initiative_details' ?>">
+										<div class="profile-name ">Webinar Technology</div>
 									</a>
+									<div class="profile-username ">Festival Edukasi Tentang teknologi yang berlangsung 4
+										hari ini, akan memberi kamu pengetahuan dan ilmu banyak sekali!</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')"
-								class="profile-card-2">
-								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url (). 'Homepage/program_detail_rumah_amal' ?>">
-										<div class="profile-name ">Week 1</div>
-										<div class="profile-username ">On Boarding</div>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
+						<div class="col-md-6">
 							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')"
 								class="profile-card-2">
 
 								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url (). 'Homepage/program_detail_rumah_amal' ?>">
-										<div class="profile-name ">Week 1</div>
-										<div class="profile-username ">On Boarding</div>
+									<a href=" <?= base_url (). 'Homepage/program_initiative_details' ?>">
+										<div class="profile-name ">Webinar Technology</div>
 									</a>
+									<div class="profile-username ">Festival Edukasi Tentang teknologi yang berlangsung 4
+										hari ini, akan memberi kamu pengetahuan dan ilmu banyak sekali!</div>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')"
-								class="profile-card-2">
+						
 
-								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url (). 'Homepage/program_detail_rumah_amal' ?>">
-										<div class="profile-name ">Week 1</div>
-										<div class="profile-username ">On Boarding</div>
-									</a>
-								</div>
-							</div>
-						</div>
+					
+					
 					</div>
 				</div>
 			</div>

@@ -82,4 +82,16 @@ class Homepage extends CI_Controller
     {
         $this->load->view('program_detail_rumah_amal_page');
     }
+    public function program_initiative()
+    {
+        $this->load->view('program_initiative');
+    }
+    public function program_initiative_details()
+    {
+        $this->load->view('program_detail_initiative');
+    }
+    public function program_initiative_details_video()
+    {
+        $this->load->view('program_detail_rumah_amal_page');
+    }
 }

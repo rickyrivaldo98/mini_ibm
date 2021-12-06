@@ -80,45 +80,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 <body>
     <!--header-->
-    <header id="site-header" class="fixed-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg stroke">
-                <!-- <img class="navbar-brand" style="margin-top:-15px" src="<?= base_url('assets'); ?>/images/Mask Group.png"> -->
-                <h1><a class="nav-link" style="color:white" href="<?= base_url("Homepage"); ?>">Mini MBA</a></h1>
-                <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-                </button>
+    <?php $this->load->view('templates/navbar') ?>
 
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav ml-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url("Homepage/program"); ?>">Program</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url("Homepage/journal"); ?>">Insight & Journal</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url("Homepage/about"); ?>">About Us</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="<?= base_url("Homepage/events"); ?>">Events</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url("Homepage/news"); ?>">News</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="<?= base_url("Homepage/contact"); ?>">Contact Page</a>
-                        </li>
-                        <li class="nav-item">
-                            <a style="background-color: #9C1718;border-color:#9C1718;font-size:14px;" href="<?= base_url("Homepage/register"); ?>" class="btn btn-danger ">Register</a>
-                        </li>
-                    </ul>
-                </div>
-
-            </nav>
-        </div>
-    </header>
     <!--//header-->
 
     <!-- inner banner -->
@@ -463,8 +426,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
             if (scroll >= 80) {
                 $("#site-header").addClass("nav-fixed");
+                $("#site-header").addClass("fixed-top");
             } else {
                 $("#site-header").removeClass("nav-fixed");
+                $("#site-header").removeClass("fixed-top");
             }
         });
 

@@ -49,12 +49,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<div class="container p-5">
 								<div class="row mb-5 align-items-center my-auto">
 									<div class="col-12">
-										<p class="text-white text-muted text-left">Program</p>
+										<p class="text-white text-left">Program</p>
 									</div>
 
 									<div class="col-12">
 										<h2 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2 text-left"
-											style="line-height:40px">Kelas Mini MBA Eksklusif</h2>
+											style="line-height:40px">Inspiring Lecturer Paragon (ILP)</h2>
 									</div>
 								</div>
 
@@ -66,7 +66,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				</div>
 				<div class="content-sec-11" style="position: relative">
 					<div style="background-color: #F5F7FB; margin-top:30px; padding:80px 30px">
-						<h3 class="title-style mb-2" style="color:#07B0C8">Program Content</h3>
+						<h3 class="title-style mb-2" style="color:#9B191B">About This Program</h3>
 						<div class="mt-5">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel imperdiet neque. Sed
 							id finibus nisi. Vivamus leo augue, faucibus quis enim in, condimentum imperdiet mi. Nullam
