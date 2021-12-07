@@ -22,7 +22,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             background-position: center;
             overflow: hidden;
             position: relative;
-            margin: 2px auto;
+            margin: -5px auto;
             /* cursor: pointer; */
             border-radius: 30px;
             height: 500px;
@@ -40,7 +40,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         .profile-card-2 .wrap-profile {
             position: absolute;
             left: 20px;
-            bottom: 100px;
+            bottom: 70px;
             /* font-size: 20px; */
             color: #FFF;
             text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
@@ -124,7 +124,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <!-- call section -->
     <section class="w3l-call-to-action-6">
-        <div class="call-sec-style py-5">
+        <div class="call-sec-style pt-3 pb-5">
             <div class="container-ibm py-md-4 py-3">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
@@ -135,19 +135,19 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </div>
                 <div class="content-sec-11">
                     <div class="row justify-content-center align-items-center">
-                        <div class="col-4 col-md-2 mb-5">
+                        <div class="col-4 col-md-2 mb-5 mx-3">
                             <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/everida.png">
                         </div>
-                        <div class="col-3 col-md-2 mb-5">
+                        <div class="col-3 col-md-2 mb-5 mx-3">
                             <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/pemimpin.png">
                         </div>
-                        <div class="col-3 col-md-2 mb-5">
+                        <div class="col-3 col-md-2 mb-5 mx-3">
                             <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/sbmitb.png">
                         </div>
-                        <div class="col-3 col-md-2 mt-3 mt-md-0 mb-5">
+                        <div class="col-3 col-md-2 mx-3 mt-3 mt-md-0 mb-5">
                             <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/paragon.png">
                         </div>
-                        <div class="col-3 col-md-2 mt-3 mt-md-0 mb-5">
+                        <div class="col-3 col-md-2 mx-3 mt-3 mt-md-0 mb-5">
                             <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/maxima.png">
                         </div>
                     </div>
@@ -250,10 +250,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="content-sec-11" style="position: relative">
-                    <div class="row justify-content-center">
-                        <div class="col-md-4">
+                    <div class="row ">
+                        <div class="col-md-12">
                             <div class="section-heading text-center mb-sm-5 mb-2">
-                                <h3 class="title-style mb-2 text-left text-md-center" style="color:#9B191B; ">Innovation</h3>
+                                <h3 class="title-style mb-2 text-left " style="color:#9B191B; ">Innovation</h3>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -261,13 +261,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                     <div class="row">
                         <div class="col-lg-6">
-                            <img class="text-left text-md-center img-responsive my-4" src="<?= base_url('assets'); ?>/images/premium-quality 1.png">
-                            <h5 style="color:#000;"><b>More Initiative Projects</b></h5>
+                            <img class="text-left text-md-center img-responsive my-4" style="width:90px" src="<?= base_url('assets'); ?>/images/premium-quality 1.png">
+                            <h5 class="mb-2" style="color:#000;"><b>More Initiative Projects</b></h5>
                             <h6 style="color:#000;">In this program, the innovative results that can be seen from the learning activity process are participants who are fostered to be able to gain new insights and knowledge, skills in technology, and skills needed in the 21st Century.</h6>
                         </div>
                         <div class="col-lg-6">
-                            <img class="text-left text-md-center img-responsive my-4" src="<?= base_url('assets'); ?>/images/knowledge 1.png">
-                            <h5 style="color:#000;"><b>Impact</b></h5>
+                            <img class="text-left text-md-center img-responsive my-4" style="width:90px" src="<?= base_url('assets'); ?>/images/knowledge 1.png">
+                            <h5 class="mb-2" style="color:#000;"><b>Impact</b></h5>
                             <h6 style="color:#000;">From the initiative projects that have been described previously, the positive impact that can be shared with the general public is that the students who are fostered can become people who have broad knowledge.</h6>
                         </div>
                     </div>
@@ -290,9 +290,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="content-sec-11" style="position: relative">
-                    <div class="row justify-content-center">
+                    <div class="row ">
                         <div class="col-md-4">
-                            <div class="section-heading text-center mb-sm-5 mb-2">
+                            <div class="section-heading mb-sm-5 mb-2">
                                 <h3 class="title-style mb-2" style="color:#9B191B;">Event</h3>
                             </div>
                         </div>
@@ -300,47 +300,47 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-3">
-                            <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 792.png">
-                            <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar" aria-hidden="true"></i><b> 11 May 2021</b></h6>
-                            <h6 style="margin-left:5%;color:black"><b>Webinar Technology</b></h6>
+                        <div class="col-lg-3 mb-3">
+                            <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 792.png">
+                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 11 May 2021</b></h6>
+                            <h6 style="color:black"><b>Webinar Technology</b></h6>
                         </div>
-                        <div class="col-lg-3">
-                            <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 734.png">
-                            <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar" aria-hidden="true"></i><b> 20 May 2021</b></h6>
-                            <h6 style="margin-left:5%;color:black"><b>Carry On Indonesian Education</b></h6>
+                        <div class="col-lg-3 mb-3">
+                            <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 734.png">
+                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 20 May 2021</b></h6>
+                            <h6 style="color:black"><b>Carry On Indonesian Education</b></h6>
                         </div>
-                        <div class="col-lg-3">
-                            <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 775.png">
-                            <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar" aria-hidden="true"></i><b> 31 May 2021</b></h6>
-                            <h6 style="margin-left:5%;color:black"><b>Cooperation with Australian companies</b></h6>
+                        <div class="col-lg-3 mb-3">
+                            <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 775.png">
+                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 31 May 2021</b></h6>
+                            <h6 style="color:black"><b>Cooperation with Australian companies</b></h6>
                         </div>
-                        <div class="col-lg-3">
-                            <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 791.png">
-                            <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar" aria-hidden="true"></i><b> 06 June 2021</b></h6>
-                            <h6 style="margin-left:5%;color:black"><b>SMARTIES Awards Indonesia</b></h6>
+                        <div class="col-lg-3 mb-3">
+                            <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 791.png">
+                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 06 June 2021</b></h6>
+                            <h6 style="color:black"><b>SMARTIES Awards Indonesia</b></h6>
                         </div>
                     </div>
                     <div class="row" style="margin-top:20px">
-                        <div class="col-lg-3">
-                            <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 792.png">
-                            <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar" aria-hidden="true"></i><b> 11 May 2021</b></h6>
-                            <h6 style="margin-left:5%;color:black"><b>Webinar Technology</b></h6>
+                        <div class="col-lg-3 mb-3">
+                            <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 792.png">
+                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 11 May 2021</b></h6>
+                            <h6 style="color:black"><b>Webinar Technology</b></h6>
                         </div>
-                        <div class="col-lg-3">
-                            <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 734.png">
-                            <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar" aria-hidden="true"></i><b> 20 May 2021</b></h6>
-                            <h6 style="margin-left:5%;color:black"><b>Carry On Indonesian Education</b></h6>
+                        <div class="col-lg-3 mb-3">
+                            <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 734.png">
+                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 20 May 2021</b></h6>
+                            <h6 style="color:black"><b>Carry On Indonesian Education</b></h6>
                         </div>
-                        <div class="col-lg-3">
-                            <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 775.png">
-                            <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar" aria-hidden="true"></i><b> 31 May 2021</b></h6>
-                            <h6 style="margin-left:5%;color:black"><b>Cooperation with Australian companies</b></h6>
+                        <div class="col-lg-3 mb-3">
+                            <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 775.png">
+                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 31 May 2021</b></h6>
+                            <h6 style="color:black"><b>Cooperation with Australian companies</b></h6>
                         </div>
-                        <div class="col-lg-3">
-                            <img class="center" src="<?= base_url('assets'); ?>/images/Rectangle 791.png">
-                            <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar" aria-hidden="true"></i><b> 06 June 2021</b></h6>
-                            <h6 style="margin-left:5%;color:black"><b>SMARTIES Awards Indonesia</b></h6>
+                        <div class="col-lg-3 mb-3">
+                            <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 791.png">
+                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 06 June 2021</b></h6>
+                            <h6 style="color:black"><b>SMARTIES Awards Indonesia</b></h6>
                         </div>
                     </div>
                 </div>

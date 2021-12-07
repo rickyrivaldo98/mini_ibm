@@ -1,5 +1,5 @@
 <header id="site-header" class="top">
-	<div class="container">
+	<div class="container container-nav">
 		<nav class="navbar navbar-expand-lg stroke ">
 			<!-- <img class="navbar-brand" style="margin-top:-15px" src="<?= base_url('assets'); ?>/images/Mask Group.png"> -->
 			<h1><a id="main_navlink" class="nav-link " style="color:#9C1718" href="<?= base_url("Homepage"); ?>"><img src="<?= base_url('assets'); ?>/images/socialinnovation.png" alt=""></a></h1>

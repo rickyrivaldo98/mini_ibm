@@ -438,9 +438,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 document.getElementById("test").innerHTML += `
                 <div class="col-lg-3 pt-5">
                 <a style="display:block;" href="<?= base_url("Homepage/news_detail"); ?>">
-                <img class="center" src="<?= base_url('assets'); ?>${data[i].gambar}">
-                <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar pr-1" aria-hidden="true"></i><b>${data[i].tanggal}</b></h6>
-                <h6 style="margin-left:5%;color:black"><b>${data[i].text}</b></h6>
+                <img class="center mb-3" src="<?= base_url('assets'); ?>${data[i].gambar}">
+                <h6 style="color:#9C1718"><i class="fa fa-calendar-o pr-1" aria-hidden="true"></i><b>${data[i].tanggal}</b></h6>
+                <h6 style="color:black"><b>${data[i].text}</b></h6>
                 </a>
                 </div>
                 `

@@ -656,6 +656,12 @@ pre code {
   margin-left: auto;
 }
 
+.container-nav {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
@@ -4596,7 +4602,7 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  /* padding: 0.5rem 1rem; */
 }
 
 .navbar .container,
@@ -14211,7 +14217,7 @@ p.white {
   margin-left: auto;
   background: #F5F7FB;
   background-size: cover;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .container-about {
@@ -14238,7 +14244,7 @@ p.white {
     margin-left: auto;
     background: #F5F7FB;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 20px;
   }
 }
 
@@ -14255,7 +14261,7 @@ p.white {
     margin-left: auto;
     background: #F5F7FB;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 20px;
   }
 }
 
@@ -14269,7 +14275,7 @@ p.white {
     /* background: url(../images/jumbotron.png) no-repeat center; */
     background: #F5F7FB;
     background-size: cover;
-    border-radius: 10px;
+    border-radius: 20px;
   }
 
   .container-about {
@@ -15101,7 +15107,8 @@ header.nav-fixed {
   border-bottom: none;
   z-index: 10 !important;
   /* background-color: var(--bg-color); */
-  background-color: #9B191B;
+  /* background-color: #9B191B; */
+  background-color: white;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
   /* for z-index:10 to display gallery popup */
 }
@@ -15144,7 +15151,7 @@ nav ul li a:hover {
 }
 
 .nav-fixed .navbar-expand-lg .navbar-nav .nav-link {
-  color: #F5F7FB;
+  /* color: #F5F7FB; */
   opacity: 1;
 }
 
@@ -15514,7 +15521,7 @@ h4.search-pop-text-w3 {
   }
 
   .navbar {
-    padding: 0.5rem 0rem;
+    padding: 1rem 1.5rem;
   }
 }
 
@@ -15638,9 +15645,19 @@ h4.search-pop-text-w3 {
   font-weight: 600;
 }
 
+.title-journal {
+  font-size: 25px;
+  line-height: 45px;
+  font-weight: 600;
+}
+
 @media all and (max-width: 568px) {
   .title-style {
     font-size: 30px;
+    line-height: 40px;
+  }
+  .title-jorunal {
+    font-size: 20px;
     line-height: 40px;
   }
 }
@@ -16186,6 +16203,10 @@ img.center {
 .main-social-footer-29 a span {
   font-size: 14px;
   line-height: 30px;
+}
+
+.main-social-footer-29 #icon {
+  font-size: 30px !important;
 }
 
 .main-social-footer-29 a:hover {
