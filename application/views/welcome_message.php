@@ -186,32 +186,33 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <!-- call section -->
     <section class="w3l-call-to-action-6">
-        <div class="call-sec-style pt-3 pb-5">
-            <div class="container-ibm py-md-4 py-3">
+        <div class="call-sec-style pt-3 pb-1">
+            <div class="container-ibm py-md-5 py-3">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
-                        <div class="section-heading text-center mb-sm-5 mb-4">
+                        <div class="section-heading text-center mb-4 mb-4">
                             <h3 class="title-style mb-2" style="color:#9B191B">Partnership</h3>
                         </div>
                     </div>
                 </div>
                 <div class="content-sec-11">
                     <div class="row justify-content-center align-items-center">
-                        <div class="col-4 col-md-2 mb-5 mx-3">
-                            <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/everida.png">
-                        </div>
-                        <div class="col-3 col-md-2 mb-5 mx-3">
-                            <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/pemimpin.png">
-                        </div>
                         <div class="col-3 col-md-2 mb-5 mx-3">
                             <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/sbmitb.png">
                         </div>
                         <div class="col-3 col-md-2 mx-3 mt-3 mt-md-0 mb-5">
                             <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/paragon.png">
                         </div>
+                        <div class="col-3 col-md-2 mb-5 mx-3">
+                            <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/pemimpin.png">
+                        </div>
                         <div class="col-3 col-md-2 mx-3 mt-3 mt-md-0 mb-5">
                             <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/maxima.png">
                         </div>
+                        <div class="col-4 col-md-2 mb-5 mx-3">
+                            <img class="center img-responsive" src="<?= base_url('assets'); ?>/images/everida.png">
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -221,11 +222,11 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <!-- call section -->
     <section class="w3l-call-to-action-6" style="margin-bottom:-50px">
-        <div class="call-sec-style py-5">
+        <div class="call-sec-style py-3">
             <div class="container-ibm py-md-4 py-3">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
-                        <div class="section-heading text-center mb-sm-5 mb-4">
+                        <div class="section-heading text-center mb-4 mb-4">
                             <h3 class="title-style  text-md-center text-left mb-4 mb-md-2" style="color:#9B191B">About Us</h3>
                             <p class="text-md-center text-left">The current Covid-19 pandemic does not only affect the health sector but also affects the social sector of the Indonesian people. The limitations of these social activities have changed many things, one example is education activities that must be done online. Communication that occurs in Indonesian society at this time is also considered not good or ineffective so that it is enough to cause unrest in the community. The contributors will create social movements that will certainly help the community in dealing with unrest in this social field.</p>
                         </div>
@@ -242,7 +243,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="container py-md-4 py-3">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
-                        <div class="section-heading text-center mb-sm-5 mb-4">
+                        <div class="section-heading text-center mb-4 mb-4">
                             <!-- <h3 class="title-style mb-2" style="color:#9B191B">Program Content</h3>
 							<p>We prepare the best program to produce great leaders for the future and welcome the acceleration of technology in Indonesia.</p> -->
                         </div>
@@ -251,7 +252,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="content-sec-11">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="section-heading text-left mb-sm-5 mb-2">
+                            <div class="section-heading text-left mb-4 mb-2">
                                 <h3 class="title-style mb-2" style="color:#9B191B;">Programs</h3>
                             </div>
                         </div>
@@ -305,7 +306,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="container py-md-4 py-3">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
-                        <div class="section-heading text-center mb-sm-5 mb-4">
+                        <div class="section-heading text-center mb-4 mb-4">
                             <!-- <h3 class="title-style mb-2" style="color:#9B191B">Program Content</h3>
 							<p>We prepare the best program to produce great leaders for the future and welcome the acceleration of technology in Indonesia.</p> -->
                         </div>
@@ -314,7 +315,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="content-sec-11" style="position: relative">
                     <div class="row ">
                         <div class="col-md-12">
-                            <div class="section-heading text-center mb-sm-5 mb-2">
+                            <div class="section-heading text-center mb-4 mb-2">
                                 <h3 class="title-style mb-2 text-left " style="color:#9B191B; ">Innovation</h3>
                             </div>
                         </div>
@@ -345,7 +346,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="container py-md-4 py-3">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
-                        <div class="section-heading text-center mb-sm-5 mb-4">
+                        <div class="section-heading text-center mb-4 mb-4">
                             <!-- <h3 class="title-style mb-2" style="color:#9B191B">Program Content</h3>
 							<p>We prepare the best program to produce great leaders for the future and welcome the acceleration of technology in Indonesia.</p> -->
                         </div>
@@ -354,7 +355,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="content-sec-11" style="position: relative">
                     <div class="row ">
                         <div class="col-md-4">
-                            <div class="section-heading mb-sm-5 mb-2">
+                            <div class="section-heading mb-4 mb-2">
                                 <h3 class="title-style mb-2" style="color:#9B191B;">Event</h3>
                             </div>
                         </div>
@@ -364,47 +365,26 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="row">
                         <div class="col-lg-3 mb-3">
                             <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 792.png">
-                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 11 May 2021</b></h6>
+                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><b> 11 May 2021</b></h6>
                             <h6 style="color:black"><b>Webinar Technology</b></h6>
                         </div>
                         <div class="col-lg-3 mb-3">
                             <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 734.png">
-                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 20 May 2021</b></h6>
+                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><b> 20 May 2021</b></h6>
                             <h6 style="color:black"><b>Carry On Indonesian Education</b></h6>
                         </div>
                         <div class="col-lg-3 mb-3">
                             <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 775.png">
-                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 31 May 2021</b></h6>
+                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><b> 31 May 2021</b></h6>
                             <h6 style="color:black"><b>Cooperation with Australian companies</b></h6>
                         </div>
                         <div class="col-lg-3 mb-3">
                             <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 791.png">
-                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 06 June 2021</b></h6>
+                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><b> 06 June 2021</b></h6>
                             <h6 style="color:black"><b>SMARTIES Awards Indonesia</b></h6>
                         </div>
                     </div>
-                    <div class="row" style="margin-top:20px">
-                        <div class="col-lg-3 mb-3">
-                            <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 792.png">
-                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 11 May 2021</b></h6>
-                            <h6 style="color:black"><b>Webinar Technology</b></h6>
-                        </div>
-                        <div class="col-lg-3 mb-3">
-                            <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 734.png">
-                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 20 May 2021</b></h6>
-                            <h6 style="color:black"><b>Carry On Indonesian Education</b></h6>
-                        </div>
-                        <div class="col-lg-3 mb-3">
-                            <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 775.png">
-                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 31 May 2021</b></h6>
-                            <h6 style="color:black"><b>Cooperation with Australian companies</b></h6>
-                        </div>
-                        <div class="col-lg-3 mb-3">
-                            <img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 791.png">
-                            <h6 style="color:#9C1718"><i class="fa fa-calendar-o" aria-hidden="true"></i><b> 06 June 2021</b></h6>
-                            <h6 style="color:black"><b>SMARTIES Awards Indonesia</b></h6>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </div>

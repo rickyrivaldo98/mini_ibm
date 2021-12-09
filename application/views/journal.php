@@ -8,8 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>MINI MBA</title>
 	<!-- google-fonts -->
-	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
+	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<!-- //google-fonts -->
 	<!-- Template CSS Style link -->
 	<link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
@@ -37,7 +36,7 @@
 				<div class="row justify-content-center">
 					<div class="col-md-4">
 						<div class="section-heading text-center mb-sm-5 mb-2">
-							<h3 class="title-style mb-2 text-left" style="color:#9B191B; ">Journals & Insight</h3>
+							<h3 class="title-style mb-2 text-left" style="color:#9B191B; ">Project & Article</h3>
 						</div>
 					</div>
 				</div>
@@ -73,22 +72,20 @@
 					<div class="col-md-3 col-12 m-auto text-center ">
 						<div class="row justify-content-center my-3">
 							<div class="col-md-12">
-								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px">
+								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px">
 									<b>View PDF</b> </a>
 							</div>
 						</div>
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
 									PDF</a>
 
 							</div>
 						</div>
 					</div>
 				</div>
-                <div class="row mb-3">
+				<div class="row mb-3">
 					<div class="col-md-9 col-12">
 						<div class="container-ibm py-md-4 py-3">
 							<div class="row">
@@ -116,22 +113,20 @@
 					<div class="col-md-3 col-12 m-auto text-center ">
 						<div class="row justify-content-center my-3">
 							<div class="col-md-12">
-								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px">
+								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px">
 									<b>View PDF</b> </a>
 							</div>
 						</div>
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
 									PDF</a>
 
 							</div>
 						</div>
 					</div>
 				</div>
-                <div class="row mb-3">
+				<div class="row mb-3">
 					<div class="col-md-9 col-12">
 						<div class="container-ibm py-md-4 py-3">
 							<div class="row">
@@ -159,15 +154,13 @@
 					<div class="col-md-3 col-12 m-auto text-center ">
 						<div class="row justify-content-center my-3">
 							<div class="col-md-12">
-								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px">
+								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px">
 									<b>View PDF</b> </a>
 							</div>
 						</div>
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
 									PDF</a>
 
 							</div>

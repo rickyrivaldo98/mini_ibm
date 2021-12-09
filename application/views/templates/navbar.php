@@ -2,14 +2,14 @@
 	<div class="container container-nav">
 		<nav class="navbar navbar-expand-lg stroke ">
 			<!-- <img class="navbar-brand" style="margin-top:-15px" src="<?= base_url('assets'); ?>/images/Mask Group.png"> -->
-			<h1><a id="main_navlink" class="nav-link " style="color:#9C1718" href="<?= base_url("Homepage"); ?>"><img src="<?= base_url('assets'); ?>/images/socialinnovation.png" alt=""></a></h1>
+			<h1><a id="main_navlink" class=" " style="color:#9C1718" href="<?= base_url("Homepage"); ?>"><img src="<?= base_url('assets'); ?>/images/socialinnovation.png" alt=""></a></h1>
 			<button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
 				<span class="navbar-toggler-icon fa icon-close fa-times"></span>
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-				<ul class="navbar-nav ml-lg-auto">
+				<ul class="navbar-nav ml-lg-auto mr-lg-auto">
 					<li id="navlink-second" id="navlink-second" class="nav-item">
 						<!-- <a class="nav-link" href="<?= base_url("Homepage/program"); ?>">Program</a> -->
 						<div class="dropdown show">
@@ -29,7 +29,7 @@
 						</div>
 					</li>
 					<li id="navlink-second" class="nav-item">
-						<a class="nav-link" href="<?= base_url("Homepage/journal"); ?>">Insight & Journal</a>
+						<a class="nav-link" href="<?= base_url("Homepage/journal"); ?>">Project & Article</a>
 					</li>
 					<li id="navlink-second" class="nav-item">
 						<a class="nav-link" href="<?= base_url("Homepage/about"); ?>">About Us</a>
@@ -37,16 +37,22 @@
 					<li id="navlink-second" class="nav-item">
 						<a class="nav-link" href="<?= base_url("Homepage/events"); ?>">Events</a>
 					</li>
-					<li id="navlink-second" class="nav-item">
+					<!-- <li id="navlink-second" class="nav-item">
 						<a class="nav-link" href="<?= base_url("Homepage/news"); ?>">News</a>
-					</li>
+					</li> -->
 					<li id="navlink-second" class="nav-item">
 						<a class="nav-link" href="<?= base_url("Homepage/contact"); ?>">Contact Us</a>
 					</li>
-					<li id="navlink-second" class="nav-item">
-						<a style="background-color: #9C1718;border-color:#9C1718;font-size:14px;" href="<?= base_url("Homepage/register"); ?>" class="btn btn-danger ">Register</a>
+					<!-- <li id="navlink-second" class="nav-item mt-1 ml-auto">
+						<a style="background-color: #9C1718;border-color:#9C1718;font-size:15px;border-radius:13px;padding:10px 20px;color:white" href="<?= base_url("Homepage/register"); ?>" class=" ">Register</a>
+					</li> -->
+				</ul>
+				<ul>
+					<li id="navlink-second" class="nav-item mt-1">
+						<a style="background-color: #9C1718;border-color:#9C1718;font-size:15px;border-radius:13px;padding:10px 20px;color:white" href="<?= base_url("Homepage/register"); ?>" class=" ">Register</a>
 					</li>
 				</ul>
+
 			</div>
 
 		</nav>

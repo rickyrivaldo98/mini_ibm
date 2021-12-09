@@ -27,7 +27,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <div class="inner-banner-news">
         <div class="w3l-breadcrumb">
             <div class="container">
-                <h4 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2" style="text-align:left">Journals & Insight</h4>
+                <h4 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2" style="text-align:left">Project & Article</h4>
             </div>
         </div>
     </div>

@@ -86,7 +86,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
     <!-- inner banner -->
     <div class="inner-banner-news">
-        <div class="w3l-breadcrumb">
+        <div class="w3l-breadcrumb" style="padding-top: 90px;">
             <div class="container">
                 <h4 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2" style="text-align:left">Shaping the best generation in the digital era</h4>
                 <p style="color:white;text-align:left !important">Shaping the best generation in the digital era</p>
@@ -97,18 +97,18 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 
     <!-- call section -->
-    <section class="w3l-call-to-action-6">
+    <!-- <section class="w3l-call-to-action-6">
         <div class="call-sec-style py-5">
             <div class="container py-md-4 py-3">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
                         <div class="section-heading text-center mb-sm-5 mb-4">
-                            <!-- <h3 class="title-style mb-2" style="color:#9B191B">Program Content</h3>
-							<p>We prepare the best program to produce great leaders for the future and welcome the acceleration of technology in Indonesia.</p> -->
+                            <h3 class="title-style mb-2" style="color:#9B191B">Program Content</h3>
+							<p>We prepare the best program to produce great leaders for the future and welcome the acceleration of technology in Indonesia.</p>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="content-sec-11" style="position: relative">
+                <div class="content-sec-11" style="position: relative">
                     <div class="row justify-content-center">
                         <div class="col-md-4">
                             <div class="section-heading text-center mb-sm-5 mb-2">
@@ -132,7 +132,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <h6 style="margin-left:5%;color:#fff;margin-left:10%">Festival edukasi tentang teknologi yang berlangsung 4 hari ini, akan memberi kamu pengetahuan dan ilmu yang banyak sekali!</h6>
                         </div>
                     </div>
-                </div> -->
+                </div>
 
                 <div class="row justify-content-center align-items-center">
                     <div class="col-md-12">
@@ -161,12 +161,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- //call section -->
 
     <!-- call section -->
     <section class="w3l-call-to-action-6" style="margin-bottom:25px">
-        <div class="call-sec-style py-5">
+        <div class="call-sec-style pb-5">
             <div class="container py-md-4 py-3">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
