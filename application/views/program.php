@@ -72,7 +72,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         }
 
         .profile-card-2:hover {
-            filter: grayscale(100%);
+            filter: grayscale(50%);
         }
     </style>
 </head>

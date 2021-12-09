@@ -11,8 +11,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>MINI MBA</title>
 	<!-- google-fonts -->
-	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
+	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<!-- //google-fonts -->
 	<!-- Template CSS Style link -->
 	<link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
@@ -90,7 +89,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		}
 
 		.profile-card-2:hover {
-			filter: grayscale(100%);
+			filter: grayscale(50%);
 		}
 	</style>
 </head>
@@ -116,16 +115,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="row justify-content-between align-items-center text-left mb-5">
 						<div class="col-md-3 mb-3 col-6 ">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator1.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator1.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Najeela Shihab</div>
 							<div>Founder <br> Sekolah Murid Merdeka
 							</div>
 						</div>
 						<div class="col-md-3 mb-3 col-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator2.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator2.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Dr. Kuntoro Mangkusubroto</div>
 							<div>Kepala UKP-PPP<br>
@@ -133,8 +130,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="col-md-3 mb-3 col-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator3.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator3.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Salman Sukabat</div>
 							<div>CEO PT. Paragon <br>
@@ -142,8 +138,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="col-md-3 mb-3 col-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator4.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator4.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Dr. Donald Lantu</div>
 							<div>Associate Professor
@@ -153,8 +148,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="row justify-content-between align-items-center text-left mb-5">
 						<div class="col-md-3 mb-3 col-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator5.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator5.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Shobby Lawalata</div>
 							<div>Learning Division <br>
@@ -162,8 +156,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="col-md-3 mb-3 col-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator6.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator6.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Hasnul Suhaimi, MBA</div>
 							<div>Komisaris Utama<br>
@@ -171,16 +164,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="col-md-3 mb-3 col-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator7.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator7.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Dr. Yudo Anggoro</div>
 							<div>Assistant Professor
 							</div>
 						</div>
 						<div class="col-md-3 mb-3 col-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator8.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator8.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Alfatih Timur</div>
 							<div>Kitabisa
@@ -190,8 +181,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="row justify-content-between align-items-center text-left">
 						<div class="col-md-3 mb-3 col-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator5.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator5.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Shobby Lawalata</div>
 							<div>Learning Division <br>
@@ -199,8 +189,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="col-md-3 mb-3 col-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator6.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator6.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Hasnul Suhaimi, MBA</div>
 							<div>Komisaris Utama<br>
@@ -208,16 +197,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="col-md-3 mb-3 col-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator7.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator7.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Dr. Yudo Anggoro</div>
 							<div>Assistant Professor
 							</div>
 						</div>
 						<div class="col-md-3 mb-3 col-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator8.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator8.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Alfatih Timur</div>
 							<div>Kitabisa

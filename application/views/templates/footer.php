@@ -6,12 +6,13 @@
 					<div class="row justify-content-around ">
 						<div class="col-md-4 col-6 footer-list-29">
 							<ul>
-							<li>
+								<li>
 
-							<img class="footer-title-29"  src="<?= base_url('assets'); ?>/images/Mask Group merah.png">
-							<p>Jl Monas No 3 RT.10/RW.05,</p>
-							<p><b>Jakarta Pusat</b></p>	</li>
-							
+									<img class="footer-title-29" src="<?= base_url('assets'); ?>/images/socialinnovation.png">
+									<p>Jl Monas No 3 RT.10/RW.05,</p>
+									<p><b>Jakarta Pusat</b></p>
+								</li>
+
 							</ul>
 						</div>
 						<div class="col-md-2 col-6 footer-list-29">
@@ -87,7 +88,7 @@
 </button>
 <script>
 	// When the user scrolls down 20px from the top of the document, show the button
-	window.onscroll = function () {
+	window.onscroll = function() {
 		scrollFunction()
 	};
 
@@ -126,13 +127,13 @@
 		var amntOfChars = text.length;
 		var newString = "";
 		thhis.text("|");
-		setTimeout(function () {
+		setTimeout(function() {
 			thhis.css("opacity", 1);
 			thhis.prev().removeAttr("style");
 			thhis.text("");
 			for (var i = 0; i < amntOfChars; i++) {
-				(function (i, char) {
-					setTimeout(function () {
+				(function(i, char) {
+					setTimeout(function() {
 						newString += char;
 						thhis.text(newString);
 					}, i * typingSpeed);
@@ -141,7 +142,7 @@
 		}, 1500);
 	}
 
-	$(document).ready(function () {
+	$(document).ready(function() {
 		// Now to start autoTyping just call the autoType function with the 
 		// class of outer div
 		// The second paramter is the speed between each letter is typed.   
@@ -153,7 +154,7 @@
 <!-- magnific popup -->
 <script src="<?= base_url('assets'); ?>/js/jquery.magnific-popup.min.js"></script>
 <script>
-	$(document).ready(function () {
+	$(document).ready(function() {
 		$('.popup-with-zoom-anim').magnificPopup({
 			type: 'inline',
 
@@ -191,7 +192,7 @@
 
 <!-- MENU-JS -->
 <script>
-	$(window).on("scroll", function () {
+	$(window).on("scroll", function() {
 		var scroll = $(window).scrollTop();
 
 		if (scroll >= 100) {
@@ -214,14 +215,14 @@
 	});
 
 	//Main navigation Active Class Add Remove
-	$(".navbar-toggler").on("click", function () {
+	$(".navbar-toggler").on("click", function() {
 		$("header").toggleClass("active");
 	});
-	$(document).on("ready", function () {
+	$(document).on("ready", function() {
 		if ($(window).width() > 991) {
 			$("header").removeClass("active");
 		}
-		$(window).on("resize", function () {
+		$(window).on("resize", function() {
 			if ($(window).width() > 991) {
 				$("header").removeClass("active");
 			}
@@ -232,8 +233,8 @@
 
 <!-- disable body scroll which navbar is in active -->
 <script>
-	$(function () {
-		$('.navbar-toggler').click(function () {
+	$(function() {
+		$('.navbar-toggler').click(function() {
 			$('body').toggleClass('noscroll');
 		})
 	});

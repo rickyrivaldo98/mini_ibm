@@ -178,6 +178,7 @@
 .select-box__current:focus + .select-box__list {
     opacity: 1;
     animation-name: none;
+    background-color: white;
 }
 .select-box__current:focus + .select-box__list .select-box__option {
     cursor: pointer;
@@ -217,6 +218,8 @@
     padding: 0;
     list-style: none;
     opacity: 0;
+    z-index: 9999;
+    background-color: white;
     animation-name: HideList;
     animation-duration: 0.5s;
     animation-delay: 0.5s;

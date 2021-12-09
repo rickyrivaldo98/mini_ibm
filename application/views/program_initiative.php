@@ -11,8 +11,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>MINI MBA</title>
 	<!-- google-fonts -->
-	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
+	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<!-- //google-fonts -->
 	<!-- Template CSS Style link -->
 	<link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
@@ -92,7 +91,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		}
 
 		.profile-card-2:hover {
-			filter: grayscale(100%);
+			filter: grayscale(50%);
 		}
 	</style>
 </head>
@@ -118,10 +117,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="row justify-content-between align-items-center">
 						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')"
-								class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')" class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url (). 'Homepage/program_initiative_details' ?>">
+									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
 										<div class="profile-name ">Week 1</div>
 										<div class="profile-username ">Festival Edukasi Tentang teknologi yang
 											berlangsung 4
@@ -131,11 +129,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')"
-								class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')" class="profile-card-2">
 
 								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url (). 'Homepage/program_initiative_details' ?>">
+									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
 										<div class="profile-name ">Webinar Technology</div>
 									</a>
 									<div class="profile-username ">Festival Edukasi Tentang teknologi yang berlangsung 4
@@ -144,11 +141,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')"
-								class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')" class="profile-card-2">
 
 								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url (). 'Homepage/program_initiative_details' ?>">
+									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
 										<div class="profile-name ">Webinar Technology</div>
 									</a>
 									<div class="profile-username ">Festival Edukasi Tentang teknologi yang berlangsung 4
@@ -157,11 +153,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')"
-								class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')" class="profile-card-2">
 
 								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url (). 'Homepage/program_initiative_details' ?>">
+									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
 										<div class="profile-name ">Webinar Technology</div>
 									</a>
 									<div class="profile-username ">Festival Edukasi Tentang teknologi yang berlangsung 4
@@ -169,10 +164,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								</div>
 							</div>
 						</div>
-						
 
-					
-					
+
+
+
 					</div>
 				</div>
 			</div>

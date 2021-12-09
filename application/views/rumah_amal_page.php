@@ -89,7 +89,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
         }
 
         .profile-card-2:hover {
-            filter: grayscale(100%);
+            filter: grayscale(50%);
         }
     </style>
 </head>
@@ -97,7 +97,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <body>
     <!--header-->
     <header id="site-header" class="top">
-        <div class="container">
+        <div class="container container-nav">
             <nav class="navbar navbar-expand-lg stroke ">
                 <!-- <img class="navbar-brand" style="margin-top:-15px" src="<?= base_url('assets'); ?>/images/Mask Group.png"> -->
                 <h1><a id="main_navlink" class="nav-link " style="color:#9C1718" href="<?= base_url("Homepage"); ?>"><img src="<?= base_url('assets'); ?>/images/rumahamallogo.png" alt=""></a></h1>
@@ -113,6 +113,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <div class="dropdown show">
                                 <a class="btn btn- dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Programs
+                                    <i class="fa fa-caret-down"></i>
+
                                 </a>
 
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -137,7 +139,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                             <a class="nav-link" href="<?= base_url("Homepage/news"); ?>">News</a>
                         </li>
                         <li id="navlink-second" class="nav-item">
-                            <a class="nav-link" href="<?= base_url("Homepage/contact"); ?>">Contact Page</a>
+                            <a class="nav-link" href="<?= base_url("Homepage/contact"); ?>">Contact Us</a>
                         </li>
                         <li id="navlink-second" class="nav-item">
                             <a style="background-color: #07B0C8;border-color:#07B0C8;font-size:14px;" href="<?= base_url("Homepage/register"); ?>" class="btn btn-danger ">Register</a>
@@ -148,7 +150,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </nav>
         </div>
     </header>
-
     <!--//header-->
 
     <!-- inner banner -->

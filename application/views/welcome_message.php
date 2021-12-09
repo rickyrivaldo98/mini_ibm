@@ -73,14 +73,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
         }
 
         .profile-card-2:hover {
-            filter: grayscale(100%);
+            filter: grayscale(50%);
         }
 
-        .inner-banner{
+        .inner-banner {
             border-radius: 20px;
         }
 
-        .contact-us{
+        .contact-us {
             background: #FFFFFF;
             border-radius: 9px;
             padding: 16px 32px;
@@ -93,34 +93,96 @@ defined('BASEPATH') or exit('No direct script access allowed');
         }
 
         @media screen and (max-width:568px) {
-             .inner-banner{
-            border-radius: 0;
-        }
+            .inner-banner {
+                border-radius: 0;
+            }
         }
     </style>
 </head>
 
 <body>
     <!--header-->
-   <?php $this->load->view('templates/navbar') ?>
+    <?php $this->load->view('templates/navbar') ?>
     <!--//header-->
 
     <!-- inner banner -->
-    <div class="container mt-3 inner-banner pb-5">
+    <!-- <div class="container mt-3 inner-banner pb-5">
         <div class="w3l-breadcrumb">
             <div class="container p-5">
                 <div class="row mb-5 align-items-center my-auto">
-                <h2 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2 text-wrap" style="text-align:left; line-height:40px">Shaping the best generation  in the digital era</h2>
-                <p class="text-left mb-3" style="color:white;">Shaping the best generation in the digital era</p>
+                    <h2 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2 text-wrap" style="text-align:left; line-height:40px">Shaping the best generation in the digital era</h2>
+                    <p class="text-left mb-3" style="color:white;">Shaping the best generation in the digital era</p>
                 </div>
-                
-                <a class="contact-us btn" href="asdasd">Contact Us</a>
+
+                <a class="contact-us btn" href="<?= base_url("Homepage/contact"); ?>">Contact Us</a>
 
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- //inner banner -->
 
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container mt-3 inner-banner pb-5">
+                    <div class="w3l-breadcrumb">
+                        <div class="container p-5">
+                            <div class="row mb-5 align-items-center my-auto">
+                                <h2 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2 text-wrap" style="text-align:left; line-height:40px">Shaping the best generation in the digital era</h2>
+                                <p class="text-left mb-3" style="color:white;">Shaping the best generation in the digital era</p>
+                            </div>
+
+                            <a class="contact-us btn" href="<?= base_url("Homepage/contact"); ?>">Contact Us</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container mt-3 inner-banner pb-5">
+                    <div class="w3l-breadcrumb">
+                        <div class="container p-5">
+                            <div class="row mb-5 align-items-center my-auto">
+                                <h2 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2 text-wrap" style="text-align:left; line-height:40px">Shaping the best generation in the digital era</h2>
+                                <p class="text-left mb-3" style="color:white;">Shaping the best generation in the digital era</p>
+                            </div>
+
+                            <a class="contact-us btn" href="<?= base_url("Homepage/contact"); ?>">Contact Us</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container mt-3 inner-banner pb-5">
+                    <div class="w3l-breadcrumb">
+                        <div class="container p-5">
+                            <div class="row mb-5 align-items-center my-auto">
+                                <h2 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2 text-wrap" style="text-align:left; line-height:40px">Shaping the best generation in the digital era</h2>
+                                <p class="text-left mb-3" style="color:white;">Shaping the best generation in the digital era</p>
+                            </div>
+
+                            <a class="contact-us btn" href="<?= base_url("Homepage/contact"); ?>">Contact Us</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 
     <!-- call section -->
     <section class="w3l-call-to-action-6">

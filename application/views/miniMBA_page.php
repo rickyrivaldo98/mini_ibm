@@ -11,8 +11,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>MINI MBA</title>
 	<!-- google-fonts -->
-	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
+	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<!-- //google-fonts -->
 	<!-- Template CSS Style link -->
 	<link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
@@ -90,7 +89,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		}
 
 		.profile-card-2:hover {
-			filter: grayscale(100%);
+			filter: grayscale(50%);
 		}
 	</style>
 </head>
@@ -129,8 +128,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				<div class="row justify-content-center">
 					<div class="col-md-10">
 						<div class="section-heading text-center mb-sm-5 mb-4">
-							<h3 class="title-style  text-md-center text-left mb-4 mb-md-2 pt-5 pb-3"
-								style="color:#215AA8">About This Program</h3>
+							<h3 class="title-style  text-md-center text-left mb-4 mb-md-2 pt-5 pb-3" style="color:#215AA8">About This Program</h3>
 							<p class="text-md-center text-left">The Mini MBA Social Innovation is a fast-track MBA
 								format that aims to strengthen strategic insights and key knowledge that drive social
 								innovation, as well as to build a network of leaders and ecosystem networks that drive
@@ -196,64 +194,58 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="row justify-content-between align-items-center">
 						<div class="col-md-4">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')"
-								class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')" class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
-										<a href="<?= base_url (). 'Homepage/program_detail_mini_mba' ?>">
+									<a href="<?= base_url() . 'Homepage/program_detail_mini_mba' ?>">
 										<div class="profile-name ">Week 1</div>
-									<div class="profile-username ">On Boarding</div>
+										<div class="profile-username ">On Boarding</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')"
-								class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')" class="profile-card-2">
 
 								<div class="wrap-profile text-left mx-5">
-										<a href="<?= base_url (). 'Homepage/program_detail_mini_mba' ?>">
+									<a href="<?= base_url() . 'Homepage/program_detail_mini_mba' ?>">
 										<div class="profile-name ">Week 1</div>
-									<div class="profile-username ">On Boarding</div>
+										<div class="profile-username ">On Boarding</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')"
-								class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')" class="profile-card-2">
 
 								<div class="wrap-profile text-left mx-5">
-										<a href="<?= base_url (). 'Homepage/program_detail_mini_mba' ?>">
+									<a href="<?= base_url() . 'Homepage/program_detail_mini_mba' ?>">
 										<div class="profile-name ">Week 1</div>
-									<div class="profile-username ">On Boarding</div>
+										<div class="profile-username ">On Boarding</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')"
-								class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')" class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
-										<a href="<?= base_url (). 'Homepage/program_detail_mini_mba' ?>">
+									<a href="<?= base_url() . 'Homepage/program_detail_mini_mba' ?>">
 										<div class="profile-name ">Week 1</div>
-									<div class="profile-username ">On Boarding</div>
+										<div class="profile-username ">On Boarding</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')"
-								class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')" class="profile-card-2">
 
 								<div class="wrap-profile text-left mx-5">
-										<a href="<?= base_url (). 'Homepage/program_detail_mini_mba' ?>">
+									<a href="<?= base_url() . 'Homepage/program_detail_mini_mba' ?>">
 										<div class="profile-name ">Week 1</div>
-									<div class="profile-username ">On Boarding</div>
+										<div class="profile-username ">On Boarding</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-4">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')"
-								class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')" class="profile-card-2">
 
 								<div class="wrap-profile text-left mx-5">
-									<a href="<?= base_url (). 'Homepage/program_detail_mini_mba' ?>">
+									<a href="<?= base_url() . 'Homepage/program_detail_mini_mba' ?>">
 										<div class="profile-name ">Week 1</div>
 									</a>
 									<div class="profile-username ">On Boarding</div>
@@ -283,16 +275,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="row justify-content-center align-items-center text-left mb-5">
 						<div class="col-md-3 col-6 mb-3">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator1.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator1.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Najeela Shihab</div>
 							<div>Founder <br> Sekolah Murid Merdeka
 							</div>
 						</div>
 						<div class="col-md-3 col-6  mb-3">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator2.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator2.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Dr. Kuntoro Mangkusubroto</div>
 							<div>Kepala UKP-PPP<br>
@@ -300,8 +290,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="col-md-3 col-6  mb-3">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator3.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator3.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Salman Sukabat</div>
 							<div>CEO PT. Paragon <br>
@@ -309,8 +298,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="col-md-3 col-6  mb-3">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator4.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator4.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Dr. Donald Lantu</div>
 							<div>Associate <br> Professor
@@ -320,8 +308,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="row justify-content-between align-items-center text-left">
 						<div class="col-md-3 col-6  mb-3">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator5.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator5.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Shobby Lawalata</div>
 							<div>Learning Division <br>
@@ -329,8 +316,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="col-md-3 col-6  mb-3">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator6.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator6.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Hasnul Suhaimi, MBA</div>
 							<div>Komisaris Utama<br>
@@ -338,16 +324,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="col-md-3 col-6  mb-3">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator7.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator7.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Dr. Yudo Anggoro</div>
 							<div>Assistant Professor
 							</div>
 						</div>
 						<div class="col-md-3 col-6  mb-3">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator8.png')"
-								class="profile-card-3">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Fasilitator8.png')" class="profile-card-3">
 							</div>
 							<div class="font-weight-bold">Alfatih Timur</div>
 							<div>Kitabisa
@@ -356,7 +340,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 					</div>
 					<div class="button-container-mba">
-						<a href="<?= base_url (). 'Homepage/facilitator_mini_mba' ?>">Lihat Detail</a>
+						<a href="<?= base_url() . 'Homepage/facilitator_mini_mba' ?>">Lihat Detail</a>
 					</div>
 				</div>
 			</div>
