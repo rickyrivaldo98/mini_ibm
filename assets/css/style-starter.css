@@ -15182,7 +15182,8 @@ nav ul li a:hover {
 .nav-fixed .navbar-expand-lg .navbar-nav li.nav-item.active .nav-link,
 .nav-fixed .navbar-expand-lg .navbar-nav li.nav-item .nav-link:hover {
   /* color: var(--primary-color); */
-  color: #fff;
+  /* color: #fff; */
+  color: #9B191B;
 }
 
 .navbar .search-right {

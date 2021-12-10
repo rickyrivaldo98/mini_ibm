@@ -66,6 +66,23 @@ class Homepage extends CI_Controller
     {
         $this->load->view('program_minimba_page');
     }
+
+    public function detail_leaders_cafe()
+    {
+        $this->load->view('detail_cafe');
+    }
+    public function detail_jejaring_bersama()
+    {
+        $this->load->view('detail_jejaring');
+    }
+    public function detail_asn()
+    {
+        $this->load->view('detail_asn');
+    }
+    public function detail_leaders()
+    {
+        $this->load->view('detail_leaders');
+    }
     public function program_detail_mini_mba()
     {
         $this->load->view('program_detail_minimba_page');
