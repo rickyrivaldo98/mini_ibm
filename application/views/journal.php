@@ -8,7 +8,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>MINI MBA</title>
 	<!-- google-fonts -->
-	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
 	<!-- //google-fonts -->
 	<!-- Template CSS Style link -->
 	<link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
@@ -51,7 +52,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-12">
-											<a class=" text-left" href="<?= base_url("Homepage/journal_detail"); ?>">
+											<a class=" text-left" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
 												<h4 class="title-journal" style="color:#000000">Nao Partikel:
 													Properties, application, and Toxies</h4>
 											</a>
@@ -65,45 +66,11 @@
 											</div>
 										</div>
 									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
-							<div class="col-md-12">
-								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px">
-									<b>View PDF</b> </a>
-							</div>
-						</div>
-						<div class="row justify-content-center">
-							<div class="col-md-12">
-								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
-
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="row mb-3">
-					<div class="col-md-9 col-12">
-						<div class="container-ibm py-md-4 py-3">
-							<div class="row">
-								<div class="col-md-12">
-									<div class="row">
-										<div class="col-12">
-											<a class=" text-left" href="<?= base_url("Homepage/journal_detail"); ?>">
-												<h4 class="title-journal" style="color:#000000">Nao Partikel:
-													Properties, application, and Toxies</h4>
-											</a>
-										</div>
-
-										<div class="col-12 col-md-4">
-											<div class="d-flex justify-content-around justify-content-md-between">
-												<p>John Doe </p>
-												<p>|</p>
-												<p>Health Journal</p>
-											</div>
+									<div class="collapse" id="collapseExample">
+										<div class="card card-body">
+											Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+											richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes
+											anderson cred nesciunt sapiente ea proident.
 										</div>
 									</div>
 								</div>
@@ -113,60 +80,23 @@
 					<div class="col-md-3 col-12 m-auto text-center ">
 						<div class="row justify-content-center my-3">
 							<div class="col-md-12">
-								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px">
+								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank"
+									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px">
 									<b>View PDF</b> </a>
 							</div>
 						</div>
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-4 py-2"
+									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
 									PDF</a>
 
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="row mb-3">
-					<div class="col-md-9 col-12">
-						<div class="container-ibm py-md-4 py-3">
-							<div class="row">
-								<div class="col-md-12">
-									<div class="row">
-										<div class="col-12">
-											<a class=" text-left" href="<?= base_url("Homepage/journal_detail"); ?>">
-												<h4 class="title-journal" style="color:#000000">Nao Partikel:
-													Properties, application, and Toxies</h4>
-											</a>
-										</div>
-
-										<div class="col-12 col-md-4">
-											<div class="d-flex justify-content-around justify-content-md-between">
-												<p>John Doe </p>
-												<p>|</p>
-												<p>Health Journal</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
-							<div class="col-md-12">
-								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px">
-									<b>View PDF</b> </a>
-							</div>
-						</div>
-						<div class="row justify-content-center">
-							<div class="col-md-12">
-								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
-
-							</div>
-						</div>
-					</div>
-				</div>
+				
+				
 			</div>
 
 

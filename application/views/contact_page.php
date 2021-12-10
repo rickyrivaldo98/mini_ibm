@@ -62,8 +62,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <label style="color: #C0C0C0;" for="textarea">How can I help you ?</label>
                                 <textarea class="form-control" name="" id=""></textarea>
                             </div>
-                            <div class=" col-12 text-center text-md-left  ">
-                                <a id="send-button" href="" class="btn btn-danger btn-block btn-md-nonblock">Send</a>
+                            <div class=" col-12 text-center text-md-right  ">
+                                <a id="send-button" href="" class="btn btn-danger  btn-sm-nonblock">Send</a>
                             </div>
                         </div>
                     </div>

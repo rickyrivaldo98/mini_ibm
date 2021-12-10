@@ -16,7 +16,7 @@ class Homepage extends CI_Controller
 
     public function about()
     {
-        $this->load->view('about_page');
+        $this->load->view('new_about');
     }
 
     public function events()

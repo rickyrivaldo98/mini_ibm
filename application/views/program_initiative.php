@@ -11,7 +11,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>MINI MBA</title>
 	<!-- google-fonts -->
-	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
 	<!-- //google-fonts -->
 	<!-- Template CSS Style link -->
 	<link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
@@ -63,6 +64,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			color: #FFF;
 			text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 			/* font-weight: bold; */
+			z-index: 2;
 		}
 
 		@media screen and (max-width: 768px) {
@@ -93,6 +95,21 @@ defined('BASEPATH') or exit('No direct script access allowed');
 		.profile-card-2:hover {
 			filter: grayscale(50%);
 		}
+
+		.img-overlay {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			opacity: .8;
+			background: linear-gradient(360deg, rgba(0, 0, 0, 0.6) 20.31%, rgba(0, 0, 0, 0) 100%),
+				linear-gradient(180deg, rgba(7, 176, 200, 0.12) 21.15%, rgba(69, 196, 214, 0.4) 66.46%),
+				linear-gradient(0deg, #C4C4C4, #C4C4C4),
+				linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+
+		}
 	</style>
 </head>
 
@@ -106,64 +123,99 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<section class="w3l-call-to-action-6 pt-5">
 		<div class="call-sec-style">
 			<div class="container py-md-4 py-3">
-				<div class="content-sec-11 py-5 text-center" style="background-color: #F5F7FB;">
+				<div class="content-sec-11 py-5 px-5 text-center" style="background-color: #F5F7FB;border-radius:18px">
 					<div class="row">
 						<div class="col-md-12">
 							<div class="section-heading text-center mb-5">
-								<h3 class="title-style mb-2" style="color:#07B0C8;">Programs Content</h3>
-								<p>We prepare the best program to produce great leaders for the future and welcome <br> the acceleration of technology in Indonesia.</p>
+								<h3 class="title-style mb-2" style="color:#9C1718;">Programs Content</h3>
+								<p>We prepare the best program to produce great leaders for the future and welcome <br>
+									the acceleration of technology in Indonesia.</p>
 							</div>
 						</div>
 					</div>
 					<div class="row justify-content-between align-items-center">
 						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')" class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/evertalks.png')"
+								class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
 									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
-										<div class="profile-name ">Week 1</div>
-										<div class="profile-username ">Festival Edukasi Tentang teknologi yang
-											berlangsung 4
-											hari ini, akan memberi kamu pengetahuan dan ilmu banyak sekali!</div>
+										<div class="profile-name ">Evertalks</div>
+										<div class="profile-username ">Program EverTalks yang merupakan sebuah program
+											ruang diskusi virtual yang dilaksanakan setiap bulan dalam rangka memberikan
+											wadah untuk berbagai elemen masyarakat dan tokoh Indonesia untuk saling
+											berbagi dan berdiskusi bersama membahas suatu isu atau topik yang relevan
+											dengan kehidupan sehari-hari. Sesi ini akan diikuti bersama dengan tiga
+											orang narasumber ahli di bidangnya dan dipandu oleh satu orang moderator.
+											Untuk melihat evertalks kita, yuk tonton di :
+											https://bit.ly/EvertalksEvdu
+										</div>
 									</a>
 								</div>
+								<div class="img-overlay"></div>
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')" class="profile-card-2">
-
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/evertalks2.png')"
+								class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
 									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
-										<div class="profile-name ">Webinar Technology</div>
+										<div class="profile-name ">Evertalks</div>
+										<div class="profile-username ">Program EverTalks yang merupakan sebuah program
+											ruang diskusi virtual yang dilaksanakan setiap bulan dalam rangka memberikan
+											wadah untuk berbagai elemen masyarakat dan tokoh Indonesia untuk saling
+											berbagi dan berdiskusi bersama membahas suatu isu atau topik yang relevan
+											dengan kehidupan sehari-hari. Sesi ini akan diikuti bersama dengan tiga
+											orang narasumber ahli di bidangnya dan dipandu oleh satu orang moderator.
+											Untuk melihat evertalks kita, yuk tonton di :
+											https://bit.ly/EvertalksEvdu
+										</div>
 									</a>
-									<div class="profile-username ">Festival Edukasi Tentang teknologi yang berlangsung 4
-										hari ini, akan memberi kamu pengetahuan dan ilmu banyak sekali!</div>
 								</div>
+								<div class="img-overlay"></div>
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')" class="profile-card-2">
-
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/evertalks.png')"
+								class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
 									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
-										<div class="profile-name ">Webinar Technology</div>
+										<div class="profile-name ">Evertalks</div>
+										<div class="profile-username ">Program EverTalks yang merupakan sebuah program
+											ruang diskusi virtual yang dilaksanakan setiap bulan dalam rangka memberikan
+											wadah untuk berbagai elemen masyarakat dan tokoh Indonesia untuk saling
+											berbagi dan berdiskusi bersama membahas suatu isu atau topik yang relevan
+											dengan kehidupan sehari-hari. Sesi ini akan diikuti bersama dengan tiga
+											orang narasumber ahli di bidangnya dan dipandu oleh satu orang moderator.
+											Untuk melihat evertalks kita, yuk tonton di :
+											https://bit.ly/EvertalksEvdu
+										</div>
 									</a>
-									<div class="profile-username ">Festival Edukasi Tentang teknologi yang berlangsung 4
-										hari ini, akan memberi kamu pengetahuan dan ilmu banyak sekali!</div>
 								</div>
+								<div class="img-overlay"></div>
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')" class="profile-card-2">
-
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/evertalks2.png')"
+								class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
 									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
-										<div class="profile-name ">Webinar Technology</div>
+										<div class="profile-name ">Evertalks</div>
+										<div class="profile-username ">Program EverTalks yang merupakan sebuah program
+											ruang diskusi virtual yang dilaksanakan setiap bulan dalam rangka memberikan
+											wadah untuk berbagai elemen masyarakat dan tokoh Indonesia untuk saling
+											berbagi dan berdiskusi bersama membahas suatu isu atau topik yang relevan
+											dengan kehidupan sehari-hari. Sesi ini akan diikuti bersama dengan tiga
+											orang narasumber ahli di bidangnya dan dipandu oleh satu orang moderator.
+											Untuk melihat evertalks kita, yuk tonton di :
+											https://bit.ly/EvertalksEvdu
+										</div>
 									</a>
-									<div class="profile-username ">Festival Edukasi Tentang teknologi yang berlangsung 4
-										hari ini, akan memberi kamu pengetahuan dan ilmu banyak sekali!</div>
 								</div>
+								<div class="img-overlay"></div>
 							</div>
 						</div>
+
+
 
 
 
@@ -173,7 +225,115 @@ defined('BASEPATH') or exit('No direct script access allowed');
 			</div>
 	</section>
 	<!-- //call section -->
+	<!-- call section -->
+	<section class="w3l-call-to-action-6 pt-5">
+		<div class="call-sec-style">
+			<div class="container py-md-4 py-3">
+				<div class="content-sec-11 py-5 px-5 text-center" style="background-color: #F5F7FB;border-radius:18px">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="section-heading text-center mb-5">
+								<h3 class="title-style mb-2" style="color:#9C1718;">Innovation Content</h3>
+								<p>We prepare the best program to produce great leaders for the future and welcome the
+									acceleration of technology in Indonesia.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row justify-content-between align-items-center">
+						<div class="col-md-6">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/desagame.png')"
+								class="profile-card-2">
+								<div class="wrap-profile text-left mx-5">
+									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
+										<div class="profile-name ">Pak Kades </div>
+										<div class="profile-username ">Games ala Harvest Moon versi Evdu dengan kearifan
+											lokal. Dengan bermain games Pak Kades ini kita dapat mengetahui hasil DISC
+											yang dimiliki. Everidea Education mentransformasi alat tes yang pada umumnya
+											berupa tulisan menjadi sebuah cerita di dalam games. Seru bukan ? Nanti kita
+											berperan menjadi seorang “Pak Kades” baru dimana, Pak Kades” ingin membantu
+											menjawab aspirasi dari warga lingkungan yang dia pimpin sehingga timbul rasa
+											saling menghargai antara warga dengan aparatur sipil negara.
 
+											Yuk, Coba hasil DISC kalian apa nih ?
+											https://bit.ly/Pak-Kades
+										</div>
+									</a>
+								</div>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/desagame.png')"
+								class="profile-card-2">
+								<div class="wrap-profile text-left mx-5">
+									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
+										<div class="profile-name ">Pak Kades </div>
+										<div class="profile-username ">Games ala Harvest Moon versi Evdu dengan kearifan
+											lokal. Dengan bermain games Pak Kades ini kita dapat mengetahui hasil DISC
+											yang dimiliki. Everidea Education mentransformasi alat tes yang pada umumnya
+											berupa tulisan menjadi sebuah cerita di dalam games. Seru bukan ? Nanti kita
+											berperan menjadi seorang “Pak Kades” baru dimana, Pak Kades” ingin membantu
+											menjawab aspirasi dari warga lingkungan yang dia pimpin sehingga timbul rasa
+											saling menghargai antara warga dengan aparatur sipil negara.
+
+											Yuk, Coba hasil DISC kalian apa nih ?
+											https://bit.ly/Pak-Kadess
+										</div>
+									</a>
+								</div>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/teachingstyle.png')"
+								class="profile-card-2">
+								<div class="wrap-profile text-left mx-5">
+									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
+										<div class="profile-name ">Digital Assesment Tools </div>
+										<div class="profile-username ">Gaya Mengajar merupakan alat penilaian. Everidea
+											Education mengadaptasi dari David Wall 2007 yang berjudul “Determining Your
+											Teaching Style”, yang menarik adalah everidea education meningkatkan melalui
+											media digital untuk pengalaman yang lebih interaktif.
+											Yuk, ketahui gaya mengajar kamu!
+											https://play.kanvas.id/q/teachingstyle
+										</div>
+									</a>
+								</div>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/leadership.png')"
+								class="profile-card-2">
+								<div class="wrap-profile text-left mx-5">
+									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
+										<div class="profile-name ">Digital Assesment Tools </div>
+										<div class="profile-username ">Everidea Education mengaptasi kembali
+											berkolaborasi dengan pemimpin.id yaitu “Leadership Style Quiz”. Leadership
+											style ini diadaptasi dari Jurnal “Leadership style of sustainability
+											professionals in the UK construction industry”. Dengan ini kalian dapat
+											mengetahui Gaya Kepemimpinan kalian.
+											Kira-kira gaya kepemimpinan kalian apa sih?
+											https://play.kanvas.id/q/LeadershipStyle
+
+											s
+										</div>
+									</a>
+								</div>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+
+
+
+
+
+
+					</div>
+				</div>
+			</div>
+	</section>
+	<!-- //call section -->
 
 	<!-- footer -->
 	<?php $this->load->view('templates/footer') ?>

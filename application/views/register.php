@@ -46,7 +46,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="wrapper-form-info">
                         <div class="row">
                             <div class="col-12 mb-5">
-                                <h4 style="font-weight: 600;">Mini MBA - Social Innovation</h4>
+                                <h4 style="font-weight: 600;">Social Innovation Guest Book</h4>
                             </div>
                             <div class="col-12  mb-3">
                                 <label style="color: #C0C0C0;">Full Name <span style="color: #9C1718;"> *</span> </label>
