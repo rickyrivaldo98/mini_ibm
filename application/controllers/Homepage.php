@@ -107,6 +107,22 @@ class Homepage extends CI_Controller
     {
         $this->load->view('program_detail_initiative');
     }
+    public function program_detail_kades()
+    {
+        $this->load->view('program_detail_kades');
+    }
+    public function program_detail_digital_assesment()
+    {
+        $this->load->view('program_detail_assesment');
+    }
+    public function program_detail_digital_assesment_2()
+    {
+        $this->load->view('program_detail_assesment_2');
+    }
+    public function program_detail_evertalks()
+    {
+        $this->load->view('program_detail_evertalks ');
+    }
     public function program_initiative_details_video()
     {
         $this->load->view('program_detail_rumah_amal_page');

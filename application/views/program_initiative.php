@@ -143,11 +143,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										<div class="profile-username ">Program EverTalks yang merupakan sebuah program
 											ruang diskusi virtual yang dilaksanakan setiap bulan dalam rangka memberikan
 											wadah untuk berbagai elemen masyarakat dan tokoh Indonesia untuk saling
-											berbagi dan berdiskusi bersama membahas suatu isu atau topik yang relevan
-											dengan kehidupan sehari-hari. Sesi ini akan diikuti bersama dengan tiga
-											orang narasumber ahli di bidangnya dan dipandu oleh satu orang moderator.
-											Untuk melihat evertalks kita, yuk tonton di :
-											https://bit.ly/EvertalksEvdu
+											.....
 										</div>
 									</a>
 								</div>
@@ -163,11 +159,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										<div class="profile-username ">Program EverTalks yang merupakan sebuah program
 											ruang diskusi virtual yang dilaksanakan setiap bulan dalam rangka memberikan
 											wadah untuk berbagai elemen masyarakat dan tokoh Indonesia untuk saling
-											berbagi dan berdiskusi bersama membahas suatu isu atau topik yang relevan
-											dengan kehidupan sehari-hari. Sesi ini akan diikuti bersama dengan tiga
-											orang narasumber ahli di bidangnya dan dipandu oleh satu orang moderator.
-											Untuk melihat evertalks kita, yuk tonton di :
-											https://bit.ly/EvertalksEvdu
+											.....
 										</div>
 									</a>
 								</div>
@@ -183,11 +175,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										<div class="profile-username ">Program EverTalks yang merupakan sebuah program
 											ruang diskusi virtual yang dilaksanakan setiap bulan dalam rangka memberikan
 											wadah untuk berbagai elemen masyarakat dan tokoh Indonesia untuk saling
-											berbagi dan berdiskusi bersama membahas suatu isu atau topik yang relevan
-											dengan kehidupan sehari-hari. Sesi ini akan diikuti bersama dengan tiga
-											orang narasumber ahli di bidangnya dan dipandu oleh satu orang moderator.
-											Untuk melihat evertalks kita, yuk tonton di :
-											https://bit.ly/EvertalksEvdu
+											.....
 										</div>
 									</a>
 								</div>
@@ -203,11 +191,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 										<div class="profile-username ">Program EverTalks yang merupakan sebuah program
 											ruang diskusi virtual yang dilaksanakan setiap bulan dalam rangka memberikan
 											wadah untuk berbagai elemen masyarakat dan tokoh Indonesia untuk saling
-											berbagi dan berdiskusi bersama membahas suatu isu atau topik yang relevan
-											dengan kehidupan sehari-hari. Sesi ini akan diikuti bersama dengan tiga
-											orang narasumber ahli di bidangnya dan dipandu oleh satu orang moderator.
-											Untuk melihat evertalks kita, yuk tonton di :
-											https://bit.ly/EvertalksEvdu
+											.....s
 										</div>
 									</a>
 								</div>
@@ -244,18 +228,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<div style="background-image: url('<?= base_url("assets"); ?>/images/desagame.png')"
 								class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
+									<a href=" <?= base_url() . 'Homepage/program_detail_kades' ?>">
 										<div class="profile-name ">Pak Kades </div>
 										<div class="profile-username ">Games ala Harvest Moon versi Evdu dengan kearifan
 											lokal. Dengan bermain games Pak Kades ini kita dapat mengetahui hasil DISC
 											yang dimiliki. Everidea Education mentransformasi alat tes yang pada umumnya
-											berupa tulisan menjadi sebuah cerita di dalam games. Seru bukan ? Nanti kita
-											berperan menjadi seorang “Pak Kades” baru dimana, Pak Kades” ingin membantu
-											menjawab aspirasi dari warga lingkungan yang dia pimpin sehingga timbul rasa
-											saling menghargai antara warga dengan aparatur sipil negara.
-
-											Yuk, Coba hasil DISC kalian apa nih ?
-											https://bit.ly/Pak-Kades
+											......
 										</div>
 									</a>
 								</div>
@@ -266,18 +244,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<div style="background-image: url('<?= base_url("assets"); ?>/images/desagame.png')"
 								class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
+									<a href=" <?= base_url() . 'Homepage/program_detail_kades' ?>">
 										<div class="profile-name ">Pak Kades </div>
 										<div class="profile-username ">Games ala Harvest Moon versi Evdu dengan kearifan
 											lokal. Dengan bermain games Pak Kades ini kita dapat mengetahui hasil DISC
 											yang dimiliki. Everidea Education mentransformasi alat tes yang pada umumnya
-											berupa tulisan menjadi sebuah cerita di dalam games. Seru bukan ? Nanti kita
-											berperan menjadi seorang “Pak Kades” baru dimana, Pak Kades” ingin membantu
-											menjawab aspirasi dari warga lingkungan yang dia pimpin sehingga timbul rasa
-											saling menghargai antara warga dengan aparatur sipil negara.
-
-											Yuk, Coba hasil DISC kalian apa nih ?
-											https://bit.ly/Pak-Kadess
+											......
 										</div>
 									</a>
 								</div>
@@ -288,14 +260,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<div style="background-image: url('<?= base_url("assets"); ?>/images/teachingstyle.png')"
 								class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
+									<a href=" <?= base_url() . 'Homepage/program_detail_digital_assesment' ?>">
 										<div class="profile-name ">Digital Assesment Tools </div>
 										<div class="profile-username ">Gaya Mengajar merupakan alat penilaian. Everidea
 											Education mengadaptasi dari David Wall 2007 yang berjudul “Determining Your
-											Teaching Style”, yang menarik adalah everidea education meningkatkan melalui
-											media digital untuk pengalaman yang lebih interaktif.
-											Yuk, ketahui gaya mengajar kamu!
-											https://play.kanvas.id/q/teachingstyle
+											Teaching Style”
+											.......
 										</div>
 									</a>
 								</div>
@@ -306,17 +276,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<div style="background-image: url('<?= base_url("assets"); ?>/images/leadership.png')"
 								class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
+									<a href=" <?= base_url() . 'Homepage/program_detail_digital_assesment_2' ?>">
 										<div class="profile-name ">Digital Assesment Tools </div>
 										<div class="profile-username ">Everidea Education mengaptasi kembali
 											berkolaborasi dengan pemimpin.id yaitu “Leadership Style Quiz”. Leadership
 											style ini diadaptasi dari Jurnal “Leadership style of sustainability
-											professionals in the UK construction industry”. Dengan ini kalian dapat
-											mengetahui Gaya Kepemimpinan kalian.
-											Kira-kira gaya kepemimpinan kalian apa sih?
-											https://play.kanvas.id/q/LeadershipStyle
-
-											s
+											.....
 										</div>
 									</a>
 								</div>

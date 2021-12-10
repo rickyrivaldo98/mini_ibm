@@ -65,9 +65,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="mt-5">
 							<div
 								class="article-gambar d-flex flex-md-row justify-content-md-between justify-content-center flex-column">
-								<img class="img-responsive" src="<?= base_url ('assets/images/asn1.jpg') ?>"
+								<img class="img-responsive" src="<?= base_url ('assets/images/asn1.png') ?>"
 									alt="">
-								<img class="img-responsive" src="<?= base_url ('assets/images/asn2.jpg') ?>"
+								<img class="img-responsive" src="<?= base_url ('assets/images/asn2.png') ?>"
 									alt="">
 
 							</div>

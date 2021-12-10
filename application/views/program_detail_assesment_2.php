@@ -27,6 +27,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				border-radius: 0;
 			}
 		}
+
+		.article-gambar img {
+			max-width: 70%;
+			width: 500px;
+			min-width: 220px;
+			margin-bottom: 20px;
+		}
 	</style>
 </head>
 
@@ -54,7 +61,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 									<div class="col-12">
 										<h2 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2 text-left"
-											style="line-height:40px">Evertalks</h2>
+											style="line-height:40px">Digital Assesment Tools</h2>
 									</div>
 								</div>
 							</div>
@@ -64,22 +71,21 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				</div>
 				<div class="content-sec-11" style="position: relative">
 					<div style="background-color: #F5F7FB; margin-top:30px; padding:80px 30px">
-						<h3 class="title-style mb-2" style="color:#9B191B">Evertalks</h3>
+						<h3 class="title-style mb-2" style="color:#9B191B">Leadership Style Quiz</h3>
 						<div class="mt-5">
-							Program EverTalks yang merupakan sebuah program ruang diskusi virtual yang dilaksanakan
-							setiap bulan dalam rangka memberikan wadah untuk berbagai elemen masyarakat dan tokoh
-							Indonesia untuk saling berbagi dan berdiskusi bersama membahas suatu isu atau topik yang
-							relevan dengan kehidupan sehari-hari. Sesi ini akan diikuti bersama dengan tiga orang
-							narasumber ahli di bidangnya dan dipandu oleh satu orang moderator.
-							Untuk melihat evertalks kita, yuk tonton di :
+							Everidea Education mengaptasi kembali berkolaborasi dengan pemimpin.id yaitu “Leadership
+							Style Quiz”. Leadership style ini diadaptasi dari Jurnal “Leadership style of sustainability
+							professionals in the UK construction industry”. Dengan ini kalian dapat mengetahui Gaya
+							Kepemimpinan kalian.
 							<br>
-							<a class="mt-3 btn btn-outline-danger" href="https://bit.ly/EvertalksEvdu">Evertalks</a>
+							Kira-kira gaya kepemimpinan kalian apa sih?
+							<br>
+							<a class="mt-3 btn btn-outline-danger"
+								href="https://play.kanvas.id/q/LeadershipStyle">Leadership Style Quiz</a>
 						</div>
 						<div class="mt-5">
 							<div class="article-gambar d-flex flex-md-row  justify-content-center flex-column">
-								<img class="img-responsive mr-3" src="<?= base_url ('assets/images/evertalks.png') ?>"
-									alt="">
-								<img class="img-responsive" src="<?= base_url ('assets/images/evertalks2.png') ?>"
+								<img class="img-responsive" src="<?= base_url ('assets/images/leadership.png') ?>"
 									alt="">
 
 							</div>
