@@ -44,12 +44,12 @@
 						<a class="nav-link" href="<?= base_url("Homepage/contact"); ?>">Contact Us</a>
 					</li>
 					<li id="navlink-second" class="nav-item mt-1  d-block d-lg-none">
-						<a style="background-color: #9C1718;border-color:#9C1718;font-size:15px;border-radius:13px;padding:10px 20px;color:white" href="<?= base_url("Homepage/register"); ?>" class=" ">Register</a>
+						<a style="background-color: #9C1718;border-color:#9C1718;font-size:15px;border-radius:13px;padding:10px 20px;color:white" href="http://bit.ly/MiniMBAregis" target="_blank" class=" ">Register</a>
 					</li>
 				</ul>
 				<ul class="d-none d-lg-block">
 					<li id="navlink-second" class="nav-item mt-1">
-						<a style="background-color: #9C1718;border-color:#9C1718;font-size:15px;border-radius:13px;padding:10px 20px;color:white" href="<?= base_url("Homepage/register"); ?>" class=" ">Register</a>
+						<a style="background-color: #9C1718;border-color:#9C1718;font-size:15px;border-radius:13px;padding:10px 20px;color:white" href="http://bit.ly/MiniMBAregis" target="_blank" class=" ">Register</a>
 					</li>
 				</ul>
 

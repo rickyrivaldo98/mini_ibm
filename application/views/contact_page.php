@@ -63,7 +63,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <textarea class="form-control" name="" id=""></textarea>
                             </div>
                             <div class=" col-12 text-center text-md-right  ">
-                                <a id="send-button" href="" class="btn btn-danger  btn-sm-nonblock">Send</a>
+                                <a id="send-button" href="" class="btn btn-danger btn-sm-nonblock">Send</a>
                             </div>
                         </div>
                     </div>

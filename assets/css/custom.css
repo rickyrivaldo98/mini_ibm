@@ -32,9 +32,9 @@
 
 .form-about .container {
     background-color: white;
-    box-shadow: -4px -4px 25px rgba(0, 0, 0, 0.04), 4px 4px 25px rgba(0, 0, 0, 0.04);
+    box-shadow: -5px -5px 35px rgba(0, 0, 0, 0.04), 5px 5px 35px rgba(0, 0, 0, 0.04);
     border-radius: 18px;
-    height: 73vh;
+    height: 90vh;
 }
 
 .form-about .wrapper-form-info {
@@ -61,7 +61,7 @@
 .contact-info {
     background: #F5F7FB;
     border-radius: 0 18px 18px 0;
-    height: 70vh;
+    height: 85vh;
 
 }
 
@@ -292,12 +292,12 @@
     border-radius: 50px;
 }
 
-.contact-info {
+/* .contact-info {
     background: #F5F7FB;
     border-radius: 0 18px 18px 0;
     height: 70vh;
 
-}
+} */
 
 .icon-box {
     width: 25px;

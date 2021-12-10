@@ -11,8 +11,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>MINI MBA</title>
 	<!-- google-fonts -->
-	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
+	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<!-- //google-fonts -->
 	<!-- Template CSS Style link -->
 	<link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
@@ -134,8 +133,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="w3l-breadcrumb">
 						<div class="container p-5">
 							<div class="row mb-5 align-items-center my-auto">
-								<h2 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2 text-wrap"
-									style="text-align:left; line-height:40px">Shaping the best generation in the digital
+								<h2 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2 text-wrap" style="text-align:left; line-height:40px">Shaping the best generation in the digital
 									era</h2>
 								<p class="text-left mb-3" style="color:white;">Shaping the best generation in the
 									digital era</p>
@@ -152,8 +150,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="w3l-breadcrumb">
 						<div class="container p-5">
 							<div class="row mb-5 align-items-center my-auto">
-								<h2 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2 text-wrap"
-									style="text-align:left; line-height:40px">Shaping the best generation in the digital
+								<h2 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2 text-wrap" style="text-align:left; line-height:40px">Shaping the best generation in the digital
 									era</h2>
 								<p class="text-left mb-3" style="color:white;">Shaping the best generation in the
 									digital era</p>
@@ -170,8 +167,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					<div class="w3l-breadcrumb">
 						<div class="container p-5">
 							<div class="row mb-5 align-items-center my-auto">
-								<h2 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2 text-wrap"
-									style="text-align:left; line-height:40px">Shaping the best generation in the digital
+								<h2 class="inner-text-title font-weight-bold text-white mb-sm-3 mb-2 text-wrap" style="text-align:left; line-height:40px">Shaping the best generation in the digital
 									era</h2>
 								<p class="text-left mb-3" style="color:white;">Shaping the best generation in the
 									digital era</p>
@@ -216,7 +212,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						<div class="col-3 col-md-2 mb-5 ">
 							<img class="center img-responsive" src="<?= base_url('assets'); ?>/images/pemimpin.png">
 						</div>
-                        <div class="col-3 col-md-2 mb-5 ">
+						<div class="col-3 col-md-2 mb-5 ">
 							<img style="width:50%" class="center img-responsive" src="<?= base_url('assets'); ?>/images/fsa.png">
 						</div>
 						<div class="col-3 col-md-2  mt-3 mt-md-0 mb-5">
@@ -280,10 +276,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="row justify-content-center align-items-center">
 						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')"
-								class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')" class="profile-card-2">
 								<div class="wrap-profile mx-5">
-									<a href="<?= base_url ('Homepage/detail_leaders_cafe') ?>">
+									<a href="<?= base_url('Homepage/detail_leaders_cafe') ?>">
 										<div class="profile-name ">Leaders Cafe </div>
 										<div class="profile-username ">
 											The Leaders Cafe is an open-for-all one month leadership program. Gathering
@@ -302,9 +297,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')"
-								class="profile-card-2">
-								<a href="<?= base_url ('Homepage/detail_jejaring_bersama') ?>">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')" class="profile-card-2">
+								<a href="<?= base_url('Homepage/detail_jejaring_bersama') ?>">
 									<div class="wrap-profile mx-5">
 										<div class="profile-name ">Jejaring Menang Bersama</div>
 										<div class="profile-username mb-3">
@@ -320,10 +314,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')"
-							class="profile-card-2">
+						<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 764.png')" class="profile-card-2">
 							<div class="wrap-profile mx-5">
-								<a href="<?= base_url ('Homepage/detail_leaders') ?>">
+								<a href="<?= base_url('Homepage/detail_leaders') ?>">
 
 									<div class="profile-name ">Leaders Academy Indonesia</div>
 									<div class="profile-username ">
@@ -342,10 +335,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 						</div>
 					</div>
 					<div class="col-md-6">
-						<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')"
-							class="profile-card-2">
+						<div style="background-image: url('<?= base_url("assets"); ?>/images/Rectangle 769.png')" class="profile-card-2">
 							<div class="wrap-profile mx-5">
-								<a href="<?= base_url ('Homepage/detail_asn') ?>">
+								<a href="<?= base_url('Homepage/detail_asn') ?>">
 
 									<div class="profile-name ">ASN Academy</div>
 									<div class="profile-username ">ASN Academy adalah program pengembangan kapasitas
@@ -390,8 +382,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="row">
 						<div class="col-lg-6">
-							<img class="text-left text-md-center img-responsive my-4" style="width:90px"
-								src="<?= base_url('assets'); ?>/images/premium-quality 1.png">
+							<img class="text-left text-md-center img-responsive my-4" style="width:90px" src="<?= base_url('assets'); ?>/images/premium-quality 1.png">
 							<h5 class="mb-2" style="color:#000;"><b>More Initiative Projects</b></h5>
 							<h6 style="color:#000;">In this program, the innovative results that can be seen from the
 								learning activity process are participants who are fostered to be able to gain new
@@ -399,8 +390,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</h6>
 						</div>
 						<div class="col-lg-6">
-							<img class="text-left text-md-center img-responsive my-4" style="width:90px"
-								src="<?= base_url('assets'); ?>/images/knowledge 1.png">
+							<img class="text-left text-md-center img-responsive my-4" style="width:90px" src="<?= base_url('assets'); ?>/images/knowledge 1.png">
 							<h5 class="mb-2" style="color:#000;"><b>Impact</b></h5>
 							<h6 style="color:#000;">From the initiative projects that have been described previously,
 								the positive impact that can be shared with the general public is that the students who
@@ -437,12 +427,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="row">
 						<div class="col-lg-3 mb-3">
-							<img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 792.png">
-							<h6 style="color:#9C1718"><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><b> 11 May
-									2021</b></h6>
-							<h6 style="color:black"><b>Webinar Technology</b></h6>
+							<a style="display:block;" href="<?= base_url("Homepage/events_detail"); ?>">
+								<img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 792.png">
+								<h6 style="color:#9C1718"><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><b> 17 Desember 2021</b></h6>
+								<h6 style="color:black"><b>TB x SIRCLO</b></h6>
+							</a>
 						</div>
-						<div class="col-lg-3 mb-3">
+						<!-- <div class="col-lg-3 mb-3">
 							<img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 734.png">
 							<h6 style="color:#9C1718"><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><b> 20 May
 									2021</b></h6>
@@ -459,7 +450,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							<h6 style="color:#9C1718"><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><b> 06
 									June 2021</b></h6>
 							<h6 style="color:black"><b>SMARTIES Awards Indonesia</b></h6>
-						</div>
+						</div> -->
 					</div>
 
 				</div>

@@ -8,8 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>MINI MBA</title>
 	<!-- google-fonts -->
-	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
+	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<!-- //google-fonts -->
 	<!-- Template CSS Style link -->
 	<link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
@@ -68,7 +67,7 @@
 				<div class="d-flex flex-column mb-3 flex-md-row">
 					<div class="about-img d-flex justify-content-center align-items-center">
 						<div>
-							<img class="" src="<?= base_url () . 'assets/images/sbmitb.png' ?>" alt="">
+							<img class="" src="<?= base_url() . 'assets/images/sbmitb.png' ?>" alt="">
 						</div>
 					</div>
 					<div class="text-wrap m-auto pl-md-4">
@@ -88,7 +87,7 @@
 				</div>
 				<div class="d-flex flex-column mb-3 flex-md-row">
 					<div class="about-img d-flex justify-content-center align-items-center">
-						<img class="text-center" src="<?= base_url () . 'assets/images/paragon.png' ?>" alt="">
+						<img class="text-center" src="<?= base_url() . 'assets/images/paragon.png' ?>" alt="">
 					</div>
 					<div class="text-wrap m-auto pl-md-4">
 						<div class="row justify-content-center my-3">
@@ -106,7 +105,7 @@
 				</div>
 				<div class="d-flex flex-column mb-3 flex-md-row">
 					<div class="about-img d-flex justify-content-center align-items-center">
-						<img class="text-center" src="<?= base_url () . 'assets/images/pemimpin.png' ?>" alt="">
+						<img class="text-center" src="<?= base_url() . 'assets/images/pemimpin.png' ?>" alt="">
 					</div>
 					<div class="text-wrap m-auto pl-md-4">
 						<div class="row justify-content-center my-3">
@@ -127,7 +126,7 @@
 
 				<div class="d-flex flex-column mb-3 flex-md-row">
 					<div class="about-img d-flex justify-content-center align-items-center">
-						<img class="text-center img-responsive" style="width:50%" src="<?= base_url () . 'assets/images/fsa.png' ?>" alt="">
+						<img class="text-center img-responsive" style="width:50%" src="<?= base_url() . 'assets/images/fsa.png' ?>" alt="">
 					</div>
 					<div class="text-wrap m-auto pl-md-4">
 						<div class="row justify-content-center my-3">
@@ -145,7 +144,7 @@
 
 				<div class="d-flex flex-column mb-3 flex-md-row">
 					<div class="about-img d-flex justify-content-center align-items-center">
-						<img class="text-center" src="<?= base_url () . 'assets/images/maxima.png' ?>" alt="">
+						<img class="text-center" src="<?= base_url() . 'assets/images/maxima.png' ?>" alt="">
 					</div>
 					<div class="text-wrap m-auto pl-md-4">
 						<div class="row justify-content-center my-3">
@@ -163,7 +162,7 @@
 
 				<div class="d-flex flex-column mb-3 flex-md-row">
 					<div class="about-img d-flex justify-content-center align-items-center">
-						<img class="text-center" src="<?= base_url () . 'assets/images/everida.png' ?>" alt="">
+						<img class="text-center" src="<?= base_url() . 'assets/images/everida.png' ?>" alt="">
 					</div>
 					<div class="text-wrap m-auto pl-md-4">
 						<div class="row justify-content-center my-3">
