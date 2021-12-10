@@ -58,13 +58,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <div class="card mb-4" style="width: auto;border-radius: 20px;">
                         <img class="card-img-top" src="<?= base_url('assets'); ?>/images/bgeventdetails.png" alt="Card image cap">
                         <div class="card-body p-5">
-                            <h5 class="card-title font-weight-bold">Webinar Technology</h5>
-                            <h6 style="color:#9C1718"><i class="fa fa-calendar" aria-hidden="true"></i><b> 20 May 2021</b></h6>
+                            <h5 class="card-title font-weight-bold">TB x SIRCLO</h5>
+                            <h6 style="color:#9C1718"><i class="fa fa-calendar" aria-hidden="true"></i><b> 17 Desember 2021</b></h6>
                             <hr>
                             <div class="d-flex flex-wrap">
                                 <div class="mr-5">
                                     <div class="mb-3 font-weight-bold">Hosted By</div>
-                                    <img class="footer-title-29" style="margin-left:-35px" src="<?= base_url('assets'); ?>/images/Mask Group merah.png">
+                                    <img class="footer-title-29" style="width:80%" src="<?= base_url('assets'); ?>/images/pemimpin.png">
                                 </div>
                                 <div class="mr-5">
                                     <div class="mb-3 font-weight-bold">Time & Location</div>

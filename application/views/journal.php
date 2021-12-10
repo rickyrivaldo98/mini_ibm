@@ -8,8 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>MINI MBA</title>
 	<!-- google-fonts -->
-	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
+	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<!-- //google-fonts -->
 	<!-- Template CSS Style link -->
 	<link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
@@ -17,13 +16,15 @@
 		body {
 			overflow-x: hidden;
 		}
-		a h4.title-journal{
-      color: #000;
-	  transition: ease 500ms;
- 	 }
-		a h4.title-journal:hover{
-      color: #9C1718;
- 	 }
+
+		a h4.title-journal {
+			color: #000;
+			transition: ease 500ms;
+		}
+
+		a h4.title-journal:hover {
+			color: #9C1718;
+		}
 	</style>
 </head>
 
@@ -39,7 +40,7 @@
 
 	<!-- call section -->
 	<section class="w3l-call-to-action-6" style="margin-top:5%;margin-bottom:5%;">
-		<div class="call-sec-style py-5">
+		<div class="call-sec-style py-2">
 			<div class="container">
 				<div class="row justify-content-center">
 					<div class="col-md-4">
@@ -59,8 +60,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-12">
-											<a class=" text-left" data-toggle="collapse" href="#collapseExample"
-												role="button" aria-expanded="false" aria-controls="collapseExample">
+											<a class=" text-left" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
 												<h4 class="title-journal">Nanti Kita Kelola Sampah
 													di Sekolah (NK2SS)
 												</h4>
@@ -90,19 +90,39 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
+						<!-- <div class="row justify-content-center my-3">
 							<div class="col-md-12 mb-2">
-								<a href="https://drive.google.com/file/d/1WTQs-v5kcekT_MtHc5LdUQ1iAqzn7MBE/view" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
+								<a href="https://drive.google.com/file/d/1WTQs-v5kcekT_MtHc5LdUQ1iAqzn7MBE/view" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
 									<b>View PDF</b> </a>
 							</div>
-						</div>
+						</div> -->
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="https://drive.google.com/file/d/1WTQs-v5kcekT_MtHc5LdUQ1iAqzn7MBE/view" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
+								<button data-toggle="modal" data-target="#modal1" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+									PDF</button>
+							</div>
+						</div>
+					</div>
 
+					<!-- Modal -->
+					<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLongTitle">Isi Google Form Terlebih Dahulu</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+
+									<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc-5mpgjkqJBd3CU1RLhhTbV6TXSXeo5GhN6MwbyxS2rvDpGA/viewform?embedded=true" width="450" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<a href="https://drive.google.com/file/d/1WTQs-v5kcekT_MtHc5LdUQ1iAqzn7MBE/view" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:8px 18px;">
+										<b>Sudah Isi</b> </a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -114,8 +134,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-12">
-											<a class=" text-left" data-toggle="collapse" href="#collapseExample2"
-												role="button" aria-expanded="false" aria-controls="collapseExample2">
+											<a class=" text-left" data-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
 												<h4 class="title-journal">Program Peningkatan
 													Keterampilan Komunikasi Bahasa Inggris Interkultural dan Berpikir
 													Kritis sebagai Skil Kunci Abad-21 Bagi Tenaga Pengajar
@@ -150,19 +169,36 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
+						<!-- <div class="row justify-content-center my-3">
 							<div class="col-md-12 mb-2">
-								<a href="https://drive.google.com/open?id=1mUpvw4df3Cl389hDcMhZO5JrLV5kcPkglEXR_tDwoZA" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
+								<a href="https://drive.google.com/open?id=1mUpvw4df3Cl389hDcMhZO5JrLV5kcPkglEXR_tDwoZA" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
 									<b>View PDF</b> </a>
 							</div>
-						</div>
+						</div> -->
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="https://drive.google.com/open?id=1mUpvw4df3Cl389hDcMhZO5JrLV5kcPkglEXR_tDwoZA" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
-
+								<button data-toggle="modal" data-target="#modal2" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+									PDF</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLongTitle">Isi Google Form Terlebih Dahulu</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									...
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<a href="https://drive.google.com/open?id=1mUpvw4df3Cl389hDcMhZO5JrLV5kcPkglEXR_tDwoZA" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:8px 18px;">
+										<b>Sudah Isi</b> </a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -174,8 +210,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-12">
-											<a class=" text-left" data-toggle="collapse" href="#collapseExample3"
-												role="button" aria-expanded="false" aria-controls="collapseExample3">
+											<a class=" text-left" data-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
 												<h4 class="title-journal">Work Life Balance :
 													Mental Sehat, Jiwa Kuat, Kerja Akurat
 												</h4>
@@ -208,19 +243,37 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
+						<!-- <div class="row justify-content-center my-3">
 							<div class="col-md-12 mb-2">
-								<a href="https://drive.google.com/open?id=1Z6Ng6nsUvGR2374OJwEnkTBEypsa4scB" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
+								<a href="https://drive.google.com/open?id=1Z6Ng6nsUvGR2374OJwEnkTBEypsa4scB" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
 									<b>View PDF</b> </a>
 							</div>
-						</div>
+						</div> -->
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="https://drive.google.com/open?id=1Z6Ng6nsUvGR2374OJwEnkTBEypsa4scB" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
+								<button data-toggle="modal" data-target="#modal3" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+									PDF</button>
 
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLongTitle">Isi Google Form Terlebih Dahulu</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									...
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<a href="https://drive.google.com/open?id=1Z6Ng6nsUvGR2374OJwEnkTBEypsa4scB" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:8px 18px;">
+										<b>Sudah Isi</b> </a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -232,8 +285,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-12">
-											<a class=" text-left" data-toggle="collapse" href="#collapseExample4"
-												role="button" aria-expanded="false" aria-controls="collapseExample4">
+											<a class=" text-left" data-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
 												<h4 class="title-journal">
 													Low Quality of soft skills, causing polytechnic graduates difficult
 													to get desired job
@@ -274,19 +326,37 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
+						<!-- <div class="row justify-content-center my-3">
 							<div class="col-md-12 mb-2">
-								<a href="https://drive.google.com/open?id=1KycIuLrTTRI2Cno2YLPa_uUgi7Sz5sd4" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
+								<a href="https://drive.google.com/open?id=1KycIuLrTTRI2Cno2YLPa_uUgi7Sz5sd4" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
 									<b>View PDF</b> </a>
 							</div>
-						</div>
+						</div> -->
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="https://drive.google.com/open?id=1KycIuLrTTRI2Cno2YLPa_uUgi7Sz5sd4" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
+								<button data-toggle="modal" data-target="#modal4" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+									PDF</button>
 
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLongTitle">Isi Google Form Terlebih Dahulu</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									...
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<a href="https://drive.google.com/open?id=1KycIuLrTTRI2Cno2YLPa_uUgi7Sz5sd4" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:8px 18px;">
+										<b>Sudah Isi</b> </a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -298,8 +368,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-12">
-											<a class=" text-left" data-toggle="collapse" href="#collapseExample5"
-												role="button" aria-expanded="false" aria-controls="collapseExample5">
+											<a class=" text-left" data-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample5">
 												<h4 class="title-journal">
 													Program Kesehatan Mental Untuk Anak-Anak Yatim
 												</h4>
@@ -329,19 +398,37 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
+						<!-- <div class="row justify-content-center my-3">
 							<div class="col-md-12 mb-2">
-								<a href="https://drive.google.com/open?id=1qL8sZKXNvrvR97fc3iv4zr_4IZnaP5eT" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
+								<a href="https://drive.google.com/open?id=1qL8sZKXNvrvR97fc3iv4zr_4IZnaP5eT" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
 									<b>View PDF</b> </a>
 							</div>
-						</div>
+						</div> -->
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="https://drive.google.com/open?id=1qL8sZKXNvrvR97fc3iv4zr_4IZnaP5eT" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
+								<button data-toggle="modal" data-target="#modal5" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+									PDF</button>
 
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLongTitle">Isi Google Form Terlebih Dahulu</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									...
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<a href="https://drive.google.com/open?id=1qL8sZKXNvrvR97fc3iv4zr_4IZnaP5eT" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:8px 18px;">
+										<b>Sudah Isi</b> </a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -353,8 +440,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-12">
-											<a class=" text-left" data-toggle="collapse" href="#collapseExample6"
-												role="button" aria-expanded="false" aria-controls="collapseExample6">
+											<a class=" text-left" data-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample6">
 												<h4 class="title-journal">
 													Peran Orangtua dalam Pendidikan Anak &nbsp; &nbsp; &nbsp; &nbsp;
 												</h4>
@@ -388,19 +474,36 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
+						<!-- <div class="row justify-content-center my-3">
 							<div class="col-md-12 mb-2">
-								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
+								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
 									<b>View PDF</b> </a>
 							</div>
-						</div>
+						</div> -->
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="<?= base_url('assets'); ?>/pdf/sample.pdf" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
-
+								<button data-toggle="modal" data-target="#modal6" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+									PDF</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLongTitle">Isi Google Form Terlebih Dahulu</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									...
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<a href="https://drive.google.com/open?id=19lWNrWoHRoweM8F9fAvE6M_wkEx7cOQah4g9Mu5qVKs" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:8px 18px;">
+										<b>Sudah Isi</b> </a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -412,8 +515,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-12">
-											<a class=" text-left" data-toggle="collapse" href="#collapseExample7"
-												role="button" aria-expanded="false" aria-controls="collapseExample7">
+											<a class=" text-left" data-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample7">
 												<h4 class="title-journal">
 													Mentorship for Change
 												</h4>
@@ -446,19 +548,36 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
+						<!-- <div class="row justify-content-center my-3">
 							<div class="col-md-12 mb-2">
-								<a href="https://drive.google.com/open?id=1KycIuLrTTRI2Cno2YLPa_uUgi7Sz5sd4" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
+								<a href="https://drive.google.com/open?id=1KycIuLrTTRI2Cno2YLPa_uUgi7Sz5sd4" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
 									<b>View PDF</b> </a>
 							</div>
-						</div>
+						</div> -->
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="https://drive.google.com/open?id=1KycIuLrTTRI2Cno2YLPa_uUgi7Sz5sd4" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
-
+								<button data-toggle="modal" data-target="#modal7" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+									PDF</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLongTitle">Isi Google Form Terlebih Dahulu</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									...
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<a href="https://drive.google.com/open?id=1KycIuLrTTRI2Cno2YLPa_uUgi7Sz5sd4" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:8px 18px;">
+										<b>Sudah Isi</b> </a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -470,8 +589,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-12">
-											<a class=" text-left" data-toggle="collapse" href="#collapseExample9"
-												role="button" aria-expanded="false" aria-controls="collapseExample9">
+											<a class=" text-left" data-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample9">
 												<h4 class="title-journal">
 													Safety Net for Non-Governmental Organizations
 												</h4>
@@ -505,19 +623,36 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
+						<!-- <div class="row justify-content-center my-3">
 							<div class="col-md-12 mb-2">
-								<a href="https://drive.google.com/open?id=11KoCAt3ltdRHM9Lb94DjtLUv4R4eQIgU" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
+								<a href="https://drive.google.com/open?id=11KoCAt3ltdRHM9Lb94DjtLUv4R4eQIgU" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
 									<b>View PDF</b> </a>
 							</div>
-						</div>
+						</div> -->
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="https://drive.google.com/open?id=11KoCAt3ltdRHM9Lb94DjtLUv4R4eQIgU" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
-
+								<button data-toggle="modal" data-target="#modal8" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+									PDF</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLongTitle">Isi Google Form Terlebih Dahulu</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									...
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<a href="https://drive.google.com/open?id=11KoCAt3ltdRHM9Lb94DjtLUv4R4eQIgU" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:8px 18px;">
+										<b>Sudah Isi</b> </a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -529,8 +664,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-12">
-											<a class=" text-left" data-toggle="collapse" href="#collapseExample8"
-												role="button" aria-expanded="false" aria-controls="collapseExample8">
+											<a class=" text-left" data-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample8">
 												<h4 class="title-journal">
 													Sustainable and Strategic Development Goals of Social Enterprises
 													through Government Relations
@@ -564,19 +698,36 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
+						<!-- <div class="row justify-content-center my-3">
 							<div class="col-md-12 mb-2">
-								<a href="https://drive.google.com/open?id=1qbFGDyYrKz29d64KKKt9gEiD2fggv3pV" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
+								<a href="https://drive.google.com/open?id=1qbFGDyYrKz29d64KKKt9gEiD2fggv3pV" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
 									<b>View PDF</b> </a>
 							</div>
-						</div>
+						</div> -->
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="https://drive.google.com/open?id=1qbFGDyYrKz29d64KKKt9gEiD2fggv3pV" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
-
+								<button data-toggle="modal" data-target="#modal9" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+									PDF</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLongTitle">Isi Google Form Terlebih Dahulu</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									...
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<a href="https://drive.google.com/open?id=1qbFGDyYrKz29d64KKKt9gEiD2fggv3pV" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:8px 18px;">
+										<b>Sudah Isi</b> </a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -588,8 +739,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-12">
-											<a class=" text-left" data-toggle="collapse" href="#collapseExample10"
-												role="button" aria-expanded="false" aria-controls="collapseExample10">
+											<a class=" text-left" data-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample10">
 												<h4 class="title-journal">
 													Pemerataan Kualitas Pendidikan Indonesia: Sebuah Studi Kasus antara
 													Sekolah Murid Merdeka (SMM) Jakarta dan Kudus
@@ -625,19 +775,36 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
+						<!-- <div class="row justify-content-center my-3">
 							<div class="col-md-12 mb-2">
-								<a href="https://drive.google.com/open?id=1enJqfiss48AFd9vgVpCNtKNIGjBO6ku4uYJVI5a-b8o" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
+								<a href="https://drive.google.com/open?id=1enJqfiss48AFd9vgVpCNtKNIGjBO6ku4uYJVI5a-b8o" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
 									<b>View PDF</b> </a>
 							</div>
-						</div>
+						</div> -->
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="https://drive.google.com/open?id=1enJqfiss48AFd9vgVpCNtKNIGjBO6ku4uYJVI5a-b8o" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
-
+								<button data-toggle="modal" data-target="#modal10" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+									PDF</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="modal10" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLongTitle">Isi Google Form Terlebih Dahulu</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									...
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<a href="https://drive.google.com/open?id=1enJqfiss48AFd9vgVpCNtKNIGjBO6ku4uYJVI5a-b8o" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:8px 18px;">
+										<b>Sudah Isi</b> </a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -649,8 +816,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-12">
-											<a class=" text-left" data-toggle="collapse" href="#collapseExample11"
-												role="button" aria-expanded="false" aria-controls="collapseExample11">
+											<a class=" text-left" data-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample11">
 												<h4 class="title-journal">
 													Online Coaching to Empower the Students
 												</h4>
@@ -684,19 +850,36 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
+						<!-- <div class="row justify-content-center my-3">
 							<div class="col-md-12 mb-2">
-								<a href="https://drive.google.com/open?id=1AartIi_QIjx7AuH9GH8B_KA-6DeW-Byo" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
+								<a href="https://drive.google.com/open?id=1AartIi_QIjx7AuH9GH8B_KA-6DeW-Byo" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
 									<b>View PDF</b> </a>
 							</div>
-						</div>
+						</div> -->
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="https://drive.google.com/open?id=1AartIi_QIjx7AuH9GH8B_KA-6DeW-Byo" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
-
+								<button data-toggle="modal" data-target="#modal11" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+									PDF</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="modal11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLongTitle">Isi Google Form Terlebih Dahulu</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									...
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<a href="https://drive.google.com/open?id=1AartIi_QIjx7AuH9GH8B_KA-6DeW-Byo" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:8px 18px;">
+										<b>Sudah Isi</b> </a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -708,8 +891,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-12">
-											<a class=" text-left" data-toggle="collapse" href="#collapseExample14"
-												role="button" aria-expanded="false" aria-controls="collapseExample14">
+											<a class=" text-left" data-toggle="collapse" href="#collapseExample14" role="button" aria-expanded="false" aria-controls="collapseExample14">
 												<h4 class="title-journal">
 													Coaching for Education
 												</h4>
@@ -743,19 +925,36 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
+						<!-- <div class="row justify-content-center my-3">
 							<div class="col-md-12 mb-2">
-								<a href="https://drive.google.com/open?id=1UFIwZf_H5RmR4qNLi23YP8iO1Z5zp4Pn" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
+								<a href="https://drive.google.com/open?id=1UFIwZf_H5RmR4qNLi23YP8iO1Z5zp4Pn" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
 									<b>View PDF</b> </a>
 							</div>
-						</div>
+						</div> -->
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="https://drive.google.com/open?id=1UFIwZf_H5RmR4qNLi23YP8iO1Z5zp4Pn" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
-
+								<button data-toggle="modal" data-target="#modal14" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+									PDF</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="modal14" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLongTitle">Isi Google Form Terlebih Dahulu</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									...
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<a href="https://drive.google.com/open?id=1UFIwZf_H5RmR4qNLi23YP8iO1Z5zp4Pn" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:8px 18px;">
+										<b>Sudah Isi</b> </a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -767,8 +966,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-12">
-											<a class=" text-left" data-toggle="collapse" href="#collapseExample12"
-												role="button" aria-expanded="false" aria-controls="collapseExample12">
+											<a class=" text-left" data-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample12">
 												<h4 class="title-journal">
 													MENINGKATKAN MINAT DAN KOMPETENSI BACA TULIS SISWA DENGAN POJOK BACA
 													KARYA SISWA DI SEKOLAH
@@ -802,19 +1000,36 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
+						<!-- <div class="row justify-content-center my-3">
 							<div class="col-md-12 mb-2">
-								<a href="https://drive.google.com/open?id=1ZLhOj4OOcfBb4IxqIMBo6OHUaHBPjSLYrsQwlrreeak" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
+								<a href="https://drive.google.com/open?id=1ZLhOj4OOcfBb4IxqIMBo6OHUaHBPjSLYrsQwlrreeak" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
 									<b>View PDF</b> </a>
 							</div>
-						</div>
+						</div> -->
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="https://drive.google.com/open?id=1ZLhOj4OOcfBb4IxqIMBo6OHUaHBPjSLYrsQwlrreeak" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
-
+								<button data-toggle="modal" data-target="#modal12" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+									PDF</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="modal12" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLongTitle">Isi Google Form Terlebih Dahulu</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									...
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<a href="https://drive.google.com/open?id=1ZLhOj4OOcfBb4IxqIMBo6OHUaHBPjSLYrsQwlrreeak" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:8px 18px;">
+										<b>Sudah Isi</b> </a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -826,8 +1041,7 @@
 								<div class="col-md-12">
 									<div class="row">
 										<div class="col-12">
-											<a class=" text-left" data-toggle="collapse" href="#collapseExample13"
-												role="button" aria-expanded="false" aria-controls="collapseExample13">
+											<a class=" text-left" data-toggle="collapse" href="#collapseExample13" role="button" aria-expanded="false" aria-controls="collapseExample13">
 												<h4 class="title-journal">
 													AGILE STARTUP FOR THE FUTURE
 												</h4>
@@ -861,30 +1075,49 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-12 m-auto text-center ">
-						<div class="row justify-content-center my-3">
+						<!-- <div class="row justify-content-center my-3">
 							<div class="col-md-12 mb-2">
-								<a href="https://drive.google.com/open?id=1U4HniyBgNeYrAt8Qqo_trCL6IdObUlFN" target="_blank"
-									style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
+								<a href="https://drive.google.com/open?id=1U4HniyBgNeYrAt8Qqo_trCL6IdObUlFN" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:10px 18px;">
 									<b>View PDF</b> </a>
 							</div>
-						</div>
+						</div> -->
 						<div class="row justify-content-center">
 							<div class="col-md-12">
-								<a href="https://drive.google.com/open?id=1U4HniyBgNeYrAt8Qqo_trCL6IdObUlFN" download="sample" class="px-4 py-2"
-									style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
-									PDF</a>
-
+								<button data-toggle="modal" data-target="#modal13" download="sample" class="px-4 py-2" style="text-align: justify; background-color: #9B191B; color:white;border-radius: 8px;font-size:14px">Download
+									PDF</button>
+							</div>
+						</div>
+					</div>
+					<div class="modal fade" id="modal13" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+						<div class="modal-dialog" role="document">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title" id="exampleModalLongTitle">Isi Google Form Terlebih Dahulu</h5>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+								</div>
+								<div class="modal-body">
+									...
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+									<a href="https://drive.google.com/open?id=1U4HniyBgNeYrAt8Qqo_trCL6IdObUlFN" target="_blank" style="text-align: justify;border-color: #9B191B; color: #9B191B;border-radius: 8px;font-size:14px;border:1px solid; padding:8px 18px;">
+										<b>Sudah Isi</b> </a>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-
-
-
 		</div>
 	</section>
 	<!-- //call section -->
+	<!-- <script>
+		$('#myModal').on('shown.bs.modal', function() {
+			$('#myInput').trigger('focus')
+		})
+	</script> -->
 
 	<!-- footer -->
 	<?php $this->load->view('templates/footer') ?>

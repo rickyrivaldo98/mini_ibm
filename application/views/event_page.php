@@ -452,54 +452,55 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <script id="data" type="application/json">
         [{
             "gambar": "/images/Rectangle 792.png",
-            "tanggal": "11 May 2021",
-            "text": "Webinar Technology"
-        }, {
-            "gambar": "/images/Rectangle 734.png",
-            "tanggal": "20 May 2021",
-            "text": "Carry On Indonesian Education"
-        }, {
-            "gambar": "/images/Rectangle 775.png",
-            "tanggal": "31 May 2021",
-            "text": "Cooperation with Australian companies"
-        }, {
-            "gambar": "/images/Rectangle 791.png",
-            "tanggal": "06 June 2021",
-            "text": "SMARTIES Awards Indonesia"
-        }, {
-            "gambar": "/images/Rectangle 792.png",
-            "tanggal": "11 May 2021",
-            "text": "Webinar Technology"
-        }, {
-            "gambar": "/images/Rectangle 734.png",
-            "tanggal": "20 May 2021",
-            "text": "Carry On Indonesian Education"
-        }, {
-            "gambar": "/images/Rectangle 775.png",
-            "tanggal": "31 May 2021",
-            "text": "Cooperation with Australian companies"
-        }, {
-            "gambar": "/images/Rectangle 791.png",
-            "tanggal": "06 June 2021",
-            "text": "SMARTIES Awards Indonesia"
-        }, {
-            "gambar": "/images/Rectangle 792.png",
-            "tanggal": "11 May 2021",
-            "text": "Webinar Technology"
-        }, {
-            "gambar": "/images/Rectangle 734.png",
-            "tanggal": "20 May 2021",
-            "text": "Carry On Indonesian Education"
-        }, {
-            "gambar": "/images/Rectangle 775.png",
-            "tanggal": "31 May 2021",
-            "text": "Cooperation with Australian companies"
-        }, {
-            "gambar": "/images/Rectangle 791.png",
-            "tanggal": "06 June 2021",
-            "text": "SMARTIES Awards Indonesia"
+            "tanggal": "17 Desember 2021",
+            "text": "TB x SIRCLO"
         }]
     </script>
+    <!-- {
+            "gambar": "/images/Rectangle 734.png",
+            "tanggal": "20 May 2021",
+            "text": "Carry On Indonesian Education"
+        }, {
+            "gambar": "/images/Rectangle 775.png",
+            "tanggal": "31 May 2021",
+            "text": "Cooperation with Australian companies"
+        }, {
+            "gambar": "/images/Rectangle 791.png",
+            "tanggal": "06 June 2021",
+            "text": "SMARTIES Awards Indonesia"
+        }, {
+            "gambar": "/images/Rectangle 792.png",
+            "tanggal": "11 May 2021",
+            "text": "Webinar Technology"
+        }, {
+            "gambar": "/images/Rectangle 734.png",
+            "tanggal": "20 May 2021",
+            "text": "Carry On Indonesian Education"
+        }, {
+            "gambar": "/images/Rectangle 775.png",
+            "tanggal": "31 May 2021",
+            "text": "Cooperation with Australian companies"
+        }, {
+            "gambar": "/images/Rectangle 791.png",
+            "tanggal": "06 June 2021",
+            "text": "SMARTIES Awards Indonesia"
+        }, {
+            "gambar": "/images/Rectangle 792.png",
+            "tanggal": "11 May 2021",
+            "text": "Webinar Technology"
+        }, {
+            "gambar": "/images/Rectangle 734.png",
+            "tanggal": "20 May 2021",
+            "text": "Carry On Indonesian Education"
+        }, {
+            "gambar": "/images/Rectangle 775.png",
+            "tanggal": "31 May 2021",
+            "text": "Cooperation with Australian companies"
+        }, {
+            "gambar": "/images/Rectangle 791.png",
+            "tanggal": "06 June 2021",
+            "text": "SMARTIES Awards Indonesia"
+        } -->
     <script>
         var current_page = 1;
         var records_per_page = 8;
@@ -549,7 +550,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 <div class="col-lg-3 pt-5">
                 <a style="display:block;" href="<?= base_url("Homepage/events_detail"); ?>">
                 <img class="center" src="<?= base_url('assets'); ?>${data[i].gambar}">
-                <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar pr-1" aria-hidden="true"></i><b>${data[i].tanggal}</b></h6>
+                <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar mr-2" aria-hidden="true"></i><b>${data[i].tanggal}</b></h6>
                 <h6 style="margin-left:5%;color:black"><b>${data[i].text}</b></h6>
                 </a>
                 </div>
