@@ -11,8 +11,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>MINI MBA</title>
 	<!-- google-fonts -->
-	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-		rel="stylesheet">
+	<link href="//fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<!-- //google-fonts -->
 	<!-- Template CSS Style link -->
 	<link rel="stylesheet" href="<?= base_url('assets'); ?>/css/style-starter.css">
@@ -135,8 +134,99 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="row justify-content-between align-items-center">
 						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/evertalks.png')"
-								class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/graduation1.png')" class="profile-card-2">
+								<div class="wrap-profile text-left mx-5">
+									<a href=" <?= base_url('Homepage/detail_leaders_cafe')  ?>">
+										<div class="profile-name ">Leaders Cafe </div>
+										<div class="profile-username ">Program EverTalks yang merupakan sebuah program
+											The Leaders Cafe is an open-for-all one month leadership program. Gathering
+											students and fresh graduates from all over Indonesia to connect, learn, and
+											solve real social problems. By using two-way communication learning,
+											case-based,
+											and less strict rules, this program is expected to help distribute knowledge
+											for
+											every student from all over Indonesia to become future-ready leaders ......
+
+
+										</div>
+									</a>
+								</div>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/jejaring1.png')" class="profile-card-2">
+								<div class="wrap-profile text-left mx-5">
+									<a href=" <?= base_url('Homepage/detail_jejaring_bersama') ?>">
+										<div class="profile-name ">Jejaring Menang Bersama</div>
+										<div class="profile-username ">Lahir dari kegelisahan atas meningkatnya kasus
+											Covid-19, #JejaringMenangBersama menjadi wadah kolaborasi untuk mempercepat
+											proses pemulihan bangsa. Pada akhir Agustus 2021 lalu, kasus Covid-19
+											mengalami
+											penurunan signifikan. Kasus aktif tadinya 500.000 kini telah menjadi
+											38,652.....
+										</div>
+									</a>
+								</div>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/leaders1.jpg')" class="profile-card-2">
+								<div class="wrap-profile text-left mx-5">
+									<a href=" <?= base_url('Homepage/detail_leaders') ?>">
+										<div class="profile-name ">Leaders Academy Indonesia</div>
+										<div class="profile-username ">Program EverTalks yang merupakan sebuah program
+											Leaders Academy Indonesia (LeadID) merupakan program pelatihan kepemimpinan
+											yang
+											bertujuan untuk meningkatkan kapasitas sumberdaya manusia Indonesia,
+											terutama
+											anak muda, sehingga ia bisa berdaya atas dirinya dan siap untuk
+											memberdayakan
+											orang lain. Program ini diinisiasi oleh Pemimpin.id sebagai implementasi
+											dari....
+										</div>
+									</a>
+								</div>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/asn1.png')" class="profile-card-2">
+								<div class="wrap-profile text-left mx-5">
+									<a href=" <?= base_url('Homepage/detail_asn') ?>">
+										<div class="profile-name ">ASN Academy</div>
+										<div class="profile-username ">ASN Academy adalah program pengembangan kapasitas
+											yang dipersembahkan kepada para aparatur sipil negara (ASN) terpilih untuk
+											menjadi seorang change agent. Program ini bertujuan membentuk ASN yang berdaya
+											dengan memperkuat keterampilan kunci, mengasah jiwa kepemimpinan, dan
+											menyinergikan kekuatan jejaring ASN di Indonesia....
+										</div>
+									</a>
+								</div>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/asn2.png')" class="profile-card-2">
+								<div class="wrap-profile text-left mx-5">
+									<a href=" <?= base_url('Homepage/detail_teras_belajar') ?>">
+										<div class="profile-name ">Teras Belajar</div>
+										<div class="profile-username ">Terinspirasi dari R A Kartini yang menggunakan teras
+											rumahnya menjadi tempat belajar. Teras Belajar hadir untuk menjadi teras virtual
+											untuk bisa menyebarkan ilmu ke masyarakat luas. Acara dikemas dalam bentuk
+											talkshow dengan 2 sampai 3 narasumber. Serta topik yang diangkat dibuat ringan
+											namun tetap bisa memberikan insight. Tidak lupa penggunaan platform interaktif
+											yang bertujuan untuk membuat peserta aktif selama sesi talkshow.
+
+										</div>
+									</a>
+								</div>
+								<div class="img-overlay"></div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/evertalks2.png')" class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
 									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
 										<div class="profile-name ">Evertalks</div>
@@ -150,60 +240,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								<div class="img-overlay"></div>
 							</div>
 						</div>
-						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/evertalks2.png')"
-								class="profile-card-2">
-								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
-										<div class="profile-name ">Evertalks</div>
-										<div class="profile-username ">Program EverTalks yang merupakan sebuah program
-											ruang diskusi virtual yang dilaksanakan setiap bulan dalam rangka memberikan
-											wadah untuk berbagai elemen masyarakat dan tokoh Indonesia untuk saling
-											.....
-										</div>
-									</a>
-								</div>
-								<div class="img-overlay"></div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/evertalks.png')"
-								class="profile-card-2">
-								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
-										<div class="profile-name ">Evertalks</div>
-										<div class="profile-username ">Program EverTalks yang merupakan sebuah program
-											ruang diskusi virtual yang dilaksanakan setiap bulan dalam rangka memberikan
-											wadah untuk berbagai elemen masyarakat dan tokoh Indonesia untuk saling
-											.....
-										</div>
-									</a>
-								</div>
-								<div class="img-overlay"></div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/evertalks2.png')"
-								class="profile-card-2">
-								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url() . 'Homepage/program_initiative_details' ?>">
-										<div class="profile-name ">Evertalks</div>
-										<div class="profile-username ">Program EverTalks yang merupakan sebuah program
-											ruang diskusi virtual yang dilaksanakan setiap bulan dalam rangka memberikan
-											wadah untuk berbagai elemen masyarakat dan tokoh Indonesia untuk saling
-											.....s
-										</div>
-									</a>
-								</div>
-								<div class="img-overlay"></div>
-							</div>
-						</div>
-
-
-
-
-
-
 					</div>
 				</div>
 			</div>
@@ -225,8 +261,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="row justify-content-between align-items-center">
 						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/desagame.png')"
-								class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/desagame.png')" class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
 									<a href=" <?= base_url() . 'Homepage/program_detail_kades' ?>">
 										<div class="profile-name ">Pak Kades </div>
@@ -240,25 +275,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								<div class="img-overlay"></div>
 							</div>
 						</div>
+
 						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/desagame.png')"
-								class="profile-card-2">
-								<div class="wrap-profile text-left mx-5">
-									<a href=" <?= base_url() . 'Homepage/program_detail_kades' ?>">
-										<div class="profile-name ">Pak Kades </div>
-										<div class="profile-username ">Games ala Harvest Moon versi Evdu dengan kearifan
-											lokal. Dengan bermain games Pak Kades ini kita dapat mengetahui hasil DISC
-											yang dimiliki. Everidea Education mentransformasi alat tes yang pada umumnya
-											......
-										</div>
-									</a>
-								</div>
-								<div class="img-overlay"></div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/teachingstyle.png')"
-								class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/teachingstyle.png')" class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
 									<a href=" <?= base_url() . 'Homepage/program_detail_digital_assesment' ?>">
 										<div class="profile-name ">Digital Assesment Tools </div>
@@ -273,8 +292,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div style="background-image: url('<?= base_url("assets"); ?>/images/leadership.png')"
-								class="profile-card-2">
+							<div style="background-image: url('<?= base_url("assets"); ?>/images/leadership.png')" class="profile-card-2">
 								<div class="wrap-profile text-left mx-5">
 									<a href=" <?= base_url() . 'Homepage/program_detail_digital_assesment_2' ?>">
 										<div class="profile-name ">Digital Assesment Tools </div>
@@ -288,12 +306,6 @@ defined('BASEPATH') or exit('No direct script access allowed');
 								<div class="img-overlay"></div>
 							</div>
 						</div>
-
-
-
-
-
-
 					</div>
 				</div>
 			</div>

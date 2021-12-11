@@ -83,6 +83,10 @@ class Homepage extends CI_Controller
     {
         $this->load->view('detail_leaders');
     }
+    public function detail_teras_belajar()
+    {
+        $this->load->view('detail_teras_belajar');
+    }
     public function program_detail_mini_mba()
     {
         $this->load->view('program_detail_minimba_page');

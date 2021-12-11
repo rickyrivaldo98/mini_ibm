@@ -7,9 +7,8 @@
 						<div class="col-md-4 col-12 footer-list-29 mb-5 mb-md-0">
 							<ul>
 								<li>
-									<img class="footer-title-29"
-										src="<?= base_url('assets'); ?>/images/socialinnovation.png">
-									<p>Jl Monas No 3 RT.10/RW.05,</p>
+									<img class="footer-title-29" src="<?= base_url('assets'); ?>/images/socialinnovation.png">
+									<p>Jl. Wijaya V No.6, RW.5, Melawai, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12160</p>
 									<p><b>Jakarta Pusat</b></p>
 								</li>
 
@@ -19,19 +18,19 @@
 							<ul>
 								<h6 class="footer-title-29">Program</h6>
 								<li>
-								<a href="<?= base_url() . 'Homepage/mini_mba' ?>">Mini MBA Social Innovation</a>
+									<a href="<?= base_url() . 'Homepage/mini_mba' ?>">Mini MBA Social Innovation</a>
 
 								</li>
 								<li>
-								<a href="<?= base_url() . 'Homepage/rumah_amal' ?>">Mini MBA By RUmah Amal Salman</a>
+									<a href="<?= base_url() . 'Homepage/rumah_amal' ?>">Mini MBA By RUmah Amal Salman</a>
 
 								</li>
 								<li>
-								<a href="<?= base_url() . 'Homepage/program_initiative' ?>">More Initiative Program</a>
+									<a href="<?= base_url() . 'Homepage/program_initiative' ?>">More Initiative Program</a>
 
 								</li>
 								<li>
-								<a href="<?= base_url() . 'Homepage/register' ?>">Admission</a>
+									<!-- <a href="<?= base_url() . 'Homepage/register' ?>">Admission</a> -->
 
 								</li>
 							</ul>
@@ -40,18 +39,18 @@
 							<ul>
 								<h6 class="footer-title-29">More Features</h6>
 								<li>
-									<a  href="<?= base_url("Homepage/journal"); ?>">Project &
+									<a href="<?= base_url("Homepage/journal"); ?>">Project &
 										Article</a>
 								</li>
 								<li>
-									<a  href="<?= base_url("Homepage/about"); ?>">About Us</a>
+									<a href="<?= base_url("Homepage/about"); ?>">About Us</a>
 								</li>
 								<li>
-									<a  href="<?= base_url("Homepage/events"); ?>">Events</a>
+									<a href="<?= base_url("Homepage/events"); ?>">Events</a>
 								</li>
-								
+
 								<li>
-									<a  href="<?= base_url("Homepage/contact"); ?>">Contact Us</a>
+									<a href="<?= base_url("Homepage/contact"); ?>">Contact Us</a>
 								</li>
 							</ul>
 						</div>
@@ -60,12 +59,9 @@
 							<ul>
 								<li>
 									<div class="main-social-footer-29">
-										<a href="#facebook" class="facebook"><span id="icon"
-												class="fa fa-facebook "></span></a>
-										<a href="#instagram" class="instagram"><span id="icon"
-												class="fa fa-instagram"></span></a>
-										<a href="#linkedin" class="linkedin"><span id="icon"
-												class="fa fa-youtube"></span></a>
+										<a href="#facebook" class="facebook"><span id="icon" class="fa fa-facebook "></span></a>
+										<a href="#instagram" class="instagram"><span id="icon" class="fa fa-instagram"></span></a>
+										<a href="#linkedin" class="linkedin"><span id="icon" class="fa fa-youtube"></span></a>
 									</div>
 								</li>
 							</ul>
@@ -106,7 +102,7 @@
 </button>
 <script>
 	// When the user scrolls down 20px from the top of the document, show the button
-	window.onscroll = function () {
+	window.onscroll = function() {
 		scrollFunction()
 	};
 
@@ -145,13 +141,13 @@
 		var amntOfChars = text.length;
 		var newString = "";
 		thhis.text("|");
-		setTimeout(function () {
+		setTimeout(function() {
 			thhis.css("opacity", 1);
 			thhis.prev().removeAttr("style");
 			thhis.text("");
 			for (var i = 0; i < amntOfChars; i++) {
-				(function (i, char) {
-					setTimeout(function () {
+				(function(i, char) {
+					setTimeout(function() {
 						newString += char;
 						thhis.text(newString);
 					}, i * typingSpeed);
@@ -160,7 +156,7 @@
 		}, 1500);
 	}
 
-	$(document).ready(function () {
+	$(document).ready(function() {
 		// Now to start autoTyping just call the autoType function with the 
 		// class of outer div
 		// The second paramter is the speed between each letter is typed.   
@@ -172,7 +168,7 @@
 <!-- magnific popup -->
 <script src="<?= base_url('assets'); ?>/js/jquery.magnific-popup.min.js"></script>
 <script>
-	$(document).ready(function () {
+	$(document).ready(function() {
 		$('.popup-with-zoom-anim').magnificPopup({
 			type: 'inline',
 
@@ -210,7 +206,7 @@
 
 <!-- MENU-JS -->
 <script>
-	$(window).on("scroll", function () {
+	$(window).on("scroll", function() {
 		var scroll = $(window).scrollTop();
 
 		if (scroll >= 100) {
@@ -233,14 +229,14 @@
 	});
 
 	//Main navigation Active Class Add Remove
-	$(".navbar-toggler").on("click", function () {
+	$(".navbar-toggler").on("click", function() {
 		$("header").toggleClass("active");
 	});
-	$(document).on("ready", function () {
+	$(document).on("ready", function() {
 		if ($(window).width() > 991) {
 			$("header").removeClass("active");
 		}
-		$(window).on("resize", function () {
+		$(window).on("resize", function() {
 			if ($(window).width() > 991) {
 				$("header").removeClass("active");
 			}
@@ -251,8 +247,8 @@
 
 <!-- disable body scroll which navbar is in active -->
 <script>
-	$(function () {
-		$('.navbar-toggler').click(function () {
+	$(function() {
+		$('.navbar-toggler').click(function() {
 			$('body').toggleClass('noscroll');
 		})
 	});

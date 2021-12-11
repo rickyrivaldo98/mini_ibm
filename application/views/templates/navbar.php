@@ -23,7 +23,7 @@
 								<a class="dropdown-item" href="<?= base_url() . 'Homepage/mini_mba' ?>">Mini MBA Social Innovation</a>
 								<a class="dropdown-item" href="<?= base_url() . 'Homepage/rumah_amal' ?>">Mini MBA By Rumah Amal Salman</a>
 								<a class="dropdown-item" href="<?= base_url() . 'Homepage/program_initiative' ?>">More Initiative Program</a>
-								<a class="dropdown-item" href="<?= base_url() . 'Homepage/register' ?>">Admission</a>
+								<!-- <a class="dropdown-item" href="<?= base_url() . 'Homepage/register' ?>">Admission</a> -->
 
 							</div>
 						</div>

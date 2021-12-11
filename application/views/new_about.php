@@ -75,11 +75,9 @@
 							<div class="col-md-12">
 								<h2 class="title-about mb-3">SBM ITB</h2>
 								<p>
-									The current Covid-19 pandemic does not only affect the health sector but also
-									affects the
-									social sector of the Indonesian people. The limitations of these social activities
-									have
-									changed many things, one example is education activities that must be done online.s
+									As the best business school in Indonesia, SBM ITB always contributes and significantly impacts society at the national and global levels. The business and management disciplines in SBM ITB play an instrumental role in bridging ITB’s distinctive strengths in science and technology to create meaningful value and impact for society, industry, and government.
+									<br />
+									SBM ITB offers advantages in interactive learning methods using the most recent business cases, best practices from various reputable local and global companies, and hands-on experiences shared by prominent business leaders. Also, ethical responsibility and principles of sustainability are the baselines of our learning journey. These are the benefits of learning that are relevant to the current needs of the industry.
 								</p>
 							</div>
 						</div>
@@ -93,11 +91,11 @@
 						<div class="row justify-content-center my-3">
 							<div class="col-md-12">
 								<h2 class="title-about mb-3">Paragon</h2>
-								<p>The current Covid-19 pandemic does not only affect the health sector but also affects
-									the
-									social sector of the Indonesian people. The limitations of these social activities
-									have
-									changed many things, one example is education activities that must be done online.
+								<p>Paragon is an Indonesia beauty company with the purpose of creating a greater good for the society through innovation.
+
+									Paragon have a vision as a company committed to having the best corporate governance and continuous improvement, in order to make each day better than yesterday, through high quality products that benefit the Paragonians, partners, society and the environment.
+
+
 								</p>
 							</div>
 						</div>

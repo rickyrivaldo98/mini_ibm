@@ -35,14 +35,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
         <div class="container container-nav">
             <nav class="navbar navbar-expand-lg stroke ">
                 <!-- <img class="navbar-brand" style="margin-top:-15px" src="<?= base_url('assets'); ?>/images/Mask Group.png"> -->
-                <h1><a id="main_navlink" class="nav-link " style="color:#9C1718" href="<?= base_url("Homepage"); ?>"><img src="<?= base_url('assets'); ?>/images/rumahamallogo.png" alt=""></a></h1>
+                <h1><a id="main_navlink" class=" " style="color:#9C1718" href="<?= base_url("Homepage"); ?>"><img src="<?= base_url('assets'); ?>/images/rumahamallogo.png" alt=""></a></h1>
                 <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
                     <span class="navbar-toggler-icon fa icon-close fa-times"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav ml-lg-auto">
+                    <ul class="navbar-nav ml-lg-auto mr-lg-auto">
                         <li id="navlink-second" id="navlink-second" class="nav-item">
                             <!-- <a class="nav-link" href="<?= base_url("Homepage/program"); ?>">Program</a> -->
                             <div class="dropdown show">
@@ -54,15 +54,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                     <a class="dropdown-item" href="<?= base_url() . 'Homepage/mini_mba' ?>">Mini MBA Social Innovation</a>
-                                    <a class="dropdown-item" href="<?= base_url() . 'Homepage/rumah_amal' ?>">Mini MBA By RUmah Amal Salman</a>
+                                    <a class="dropdown-item" href="<?= base_url() . 'Homepage/rumah_amal' ?>">Mini MBA By Rumah Amal Salman</a>
                                     <a class="dropdown-item" href="<?= base_url() . 'Homepage/program_initiative' ?>">More Initiative Program</a>
-                                    <a class="dropdown-item" href="<?= base_url() . 'Homepage/register' ?>">Admission</a>
+                                    <!-- <a class="dropdown-item" href="<?= base_url() . 'Homepage/register' ?>">Admission</a> -->
 
                                 </div>
                             </div>
                         </li>
                         <li id="navlink-second" class="nav-item">
-                            <a class="nav-link" href="<?= base_url("Homepage/journal"); ?>">Insight & Journal</a>
+                            <a class="nav-link" href="<?= base_url("Homepage/journal"); ?>">Project & Article</a>
                         </li>
                         <li id="navlink-second" class="nav-item">
                             <a class="nav-link" href="<?= base_url("Homepage/about"); ?>">About Us</a>
@@ -70,23 +70,29 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <li id="navlink-second" class="nav-item">
                             <a class="nav-link" href="<?= base_url("Homepage/events"); ?>">Events</a>
                         </li>
-                        <li id="navlink-second" class="nav-item">
-                            <a class="nav-link" href="<?= base_url("Homepage/news"); ?>">News</a>
-                        </li>
+                        <!-- <li id="navlink-second" class="nav-item">
+						<a class="nav-link" href="<?= base_url("Homepage/news"); ?>">News</a>
+					</li> -->
                         <li id="navlink-second" class="nav-item">
                             <a class="nav-link" href="<?= base_url("Homepage/contact"); ?>">Contact Us</a>
                         </li>
-                        <li id="navlink-second" class="nav-item">
-                            <a style="background-color: #07B0C8;border-color:#07B0C8;font-size:14px;" href="<?= base_url("Homepage/register"); ?>" class="btn btn-danger ">Register</a>
+                        <li id="navlink-second" class="nav-item mt-1  d-block d-lg-none">
+                            <a style="background-color: #9C1718;border-color:#9C1718;font-size:15px;border-radius:13px;padding:10px 20px;color:white" href="http://bit.ly/MiniMBAregis" target="_blank" class=" ">Register</a>
                         </li>
                     </ul>
+                    <ul class="d-none d-lg-block">
+                        <li id="navlink-second" class="nav-item mt-1">
+                            <a style="background-color: #07B0C8;border-color:#07B0C8;font-size:15px;border-radius:13px;padding:10px 20px;color:white" href="http://bit.ly/MiniMBAregis" target="_blank" class=" ">Register</a>
+                        </li>
+                    </ul>
+
                 </div>
 
             </nav>
         </div>
     </header>
+    <!--header-->
 
-    <!--//header-->
 
 
     <!-- call section -->
@@ -161,69 +167,84 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
 
 
-    <!-- footer -->
-    <!-- footer -->
     <section class="w3l-footer-29-main">
         <div class="footer-29 py-5">
-            <div class="container py-lg-4">
-                <div class="row footer-top-29">
-                    <div class="col-lg-9">
-                        <div class="row">
-                            <div class="col-md-6 col-6 footer-list-29">
+            <div class="container-fluid py-lg-4">
+                <div class="row justify-content-center  footer-top-29">
+                    <div class="col-lg-12">
+                        <div class="row justify-content-around ">
+                            <div class="col-md-4 col-12 footer-list-29 mb-5 mb-md-0">
                                 <ul>
-                                    <!-- <h6 class="footer-title-29">IBM</h6> -->
-                                    <img class="footer-title-29" style="margin-left:-35px;margin-top:-35px;margin-bottom:20px" src="<?= base_url('assets'); ?>/images/rumahamallogo.png">
                                     <li>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi porttitor sed sit donec mollis. Platea massa felis at scelerisque porttitor arcu at. </p>
+                                        <img class="footer-title-29" src="<?= base_url('assets'); ?>/images/rumahamallogo.png">
+                                        <p>Jl. Wijaya V No.6, RW.5, Melawai, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12160</p>
+                                        <p><b>Jakarta Pusat</b></p>
                                     </li>
+
                                 </ul>
                             </div>
                             <div class="col-md-2 col-6 footer-list-29">
                                 <ul>
                                     <h6 class="footer-title-29">Program</h6>
-                                    <li><a href="#">Tittle Program</a></li>
-                                    <li><a href="#">Tittle Program</a></li>
-                                    <li><a href="#">Tittle Program</a></li>
-                                    <li><a href="#">Tittle Program</a></li>
+                                    <li>
+                                        <a href="<?= base_url() . 'Homepage/mini_mba' ?>">Mini MBA Social Innovation</a>
+
+                                    </li>
+                                    <li>
+                                        <a href="<?= base_url() . 'Homepage/rumah_amal' ?>">Mini MBA By RUmah Amal Salman</a>
+
+                                    </li>
+                                    <li>
+                                        <a href="<?= base_url() . 'Homepage/program_initiative' ?>">More Initiative Program</a>
+
+                                    </li>
+                                    <li>
+                                        <!-- <a href="<?= base_url() . 'Homepage/register' ?>">Admission</a> -->
+
+                                    </li>
                                 </ul>
                             </div>
                             <div class="col-md-2 col-6 footer-list-29">
                                 <ul>
-                                    <h6 class="footer-title-29">Innovations</h6>
-                                    <li><a href="#">Tittle Program</a></li>
-                                    <li><a href="#">Tittle Program</a></li>
-                                    <li><a href="#">Tittle Program</a></li>
-                                    <li><a href="#">Tittle Program</a></li>
+                                    <h6 class="footer-title-29">More Features</h6>
+                                    <li>
+                                        <a href="<?= base_url("Homepage/journal"); ?>">Project &
+                                            Article</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?= base_url("Homepage/about"); ?>">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="<?= base_url("Homepage/events"); ?>">Events</a>
+                                    </li>
+
+                                    <li>
+                                        <a href="<?= base_url("Homepage/contact"); ?>">Contact Us</a>
+                                    </li>
                                 </ul>
                             </div>
                             <div class="col-md-2 col-6 footer-list-29">
-                                <h6 class="footer-title-29">Support</h6>
+                                <h6 class="footer-title-29">Follow Us</h6>
                                 <ul>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">FAQ</a></li>
+                                    <li>
+                                        <div class="main-social-footer-29">
+                                            <a href="#facebook" class="facebook"><span id="icon" class="fa fa-facebook "></span></a>
+                                            <a href="#instagram" class="instagram"><span id="icon" class="fa fa-instagram"></span></a>
+                                            <a href="#linkedin" class="linkedin"><span id="icon" class="fa fa-youtube"></span></a>
+                                        </div>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2 col-6 footer-list-29">
-                        <h6 class="footer-title-29">Follow Us</h6>
-                        <ul>
-                            <li>
-                                <div class="main-social-footer-29">
-                                    <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
-                                    <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
-                                    <a href="#linkedin" class="linkedin"><span class="fa fa-youtube"></span></a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+
                 </div>
             </div>
         </div>
     </section>
     <!-- //footer -->
     <!-- copyright -->
-    <section class="w3l-copyright " style="background-color: #07B0C8;">
+    <section class="w3l-copyright" style="background-color: #07B0C8;">
         <div class="container">
             <div class="row bottom-copies">
                 <p class="col-lg-12 copy-footer-29" style="text-align:center;color:white">© 2021 Mini MBA</p>
@@ -246,7 +267,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <!-- Js scripts -->
     <!-- move top -->
     <button onclick="topFunction()" id="movetop" title="Go to top">
-        <span class="fa fa-level-up" aria-hidden="true"></span>
+        <span class="fa fa-arrow-up" aria-hidden="true"></span>
     </button>
     <script>
         // When the user scrolls down 20px from the top of the document, show the button
@@ -360,7 +381,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             if (scroll >= 100) {
                 $("#site-header").addClass("nav-fixed");
                 $("#site-header").addClass("fixed-top");
-                $("#main_navlink").addClass("text-dark");
+                // $("#main_navlink").addClass("text-white");
                 $("#navlink-second").addClass("color-nav");
 
 
@@ -368,7 +389,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             } else {
                 $("#site-header").removeClass("nav-fixed");
                 $("#site-header").removeClass("fixed-top");
-                $("#main_navlink").removeClass("text-white");
+                // $("#main_navlink").removeClass("text-white");
                 $("#navlink-second").removeClass("color-nav");
 
 
@@ -407,6 +428,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <script src="<?= base_url('assets'); ?>/js/bootstrap.min.js"></script>
     <!-- //bootstrap-->
     <!-- //Js scripts -->
+
 
 </body>
 

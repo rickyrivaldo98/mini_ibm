@@ -177,10 +177,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     </div>
                 </div>
                 <div class="content-sec-11" style="position: relative">
-                    <div class="row justify-content-center">
+                    <div class="row ">
                         <div class="col-md-4">
-                            <div class="section-heading text-center mb-sm-5 mb-2">
-                                <h3 class="title-style mb-2 text-left" style="color:#9B191B; ">Event</h3>
+                            <div class="section-heading mb-4 mb-2">
+                                <h3 class="title-style mb-2" style="color:#9B191B;">Event</h3>
                             </div>
                         </div>
                         <div class="col-md-6">
@@ -451,10 +451,24 @@ defined('BASEPATH') or exit('No direct script access allowed');
     <!-- //MENU-JS -->
     <script id="data" type="application/json">
         [{
-            "gambar": "/images/Rectangle 792.png",
-            "tanggal": "17 Desember 2021",
-            "text": "TB x SIRCLO"
-        }]
+                "gambar": "/images/Rectangle 792.png",
+                "tanggal": "17 Desember 2021",
+                "text": "TB x SIRCLO",
+                "url": "<?= base_url("Homepage/events_detail"); ?>"
+            },
+            {
+                "gambar": "/images/Rectangle 792.png",
+                "tanggal": "25 Oktober 2021",
+                "text": "Evertalks",
+                "url": "<?= base_url("Homepage/program_initiative_details"); ?>"
+            },
+            {
+                "gambar": "/images/Rectangle 792.png",
+                "tanggal": "25 September 2021",
+                "text": "Evertalks",
+                "url": "<?= base_url("Homepage/program_initiative_details"); ?>"
+            }
+        ]
     </script>
     <!-- {
             "gambar": "/images/Rectangle 734.png",
@@ -548,7 +562,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             for (var i = (page - 1) * records_per_page; i < (page * records_per_page) && i < data.length; i++) {
                 document.getElementById("test").innerHTML += `
                 <div class="col-lg-3 pt-5">
-                <a style="display:block;" href="<?= base_url("Homepage/events_detail"); ?>">
+                <a style="display:block;" href="${data[i].url}">
                 <img class="center" src="<?= base_url('assets'); ?>${data[i].gambar}">
                 <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar mr-2" aria-hidden="true"></i><b>${data[i].tanggal}</b></h6>
                 <h6 style="margin-left:5%;color:black"><b>${data[i].text}</b></h6>

@@ -106,7 +106,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </div>
                             </div>
                             <div class="col-10">
-                                JL. Monas No.3 RT.10/RW.05, Jakarta Pusat
+                                Jl. Wijaya V No.6, RW.5, Melawai, Kec. Kby. Baru, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12160
                                 <p id="badge-maps">See on Maps</p>
                             </div>
                         </div>
