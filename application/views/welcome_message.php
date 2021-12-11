@@ -427,25 +427,27 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					</div>
 					<div class="row">
 						<div class="col-lg-3 mb-3">
-							<a style="display:block;" href="<?= base_url("Homepage/events_detail"); ?>">
+							<a style="display:block;" href="<?= base_url("Homepage"); ?>">
 								<img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 792.png">
 								<h6 style="color:#9C1718"><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><b> 17 Desember 2021</b></h6>
 								<h6 style="color:black"><b>TB x SIRCLO</b></h6>
 							</a>
 						</div>
+						<div class="col-lg-3 mb-3">
+							<a style="display:block;" href="<?= base_url("Homepage"); ?>">
+								<img class="center mb-3" style="width:280px;height:230px;border-radius:20px" src="<?= base_url('assets'); ?>/images/event2.png">
+								<h6 style="color:#9C1718"><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><b> 22 Desember 2021</b></h6>
+								<h6 style="color:black"><b>Evertalks#12</b></h6>
+							</a>
+						</div>
 						<!-- <div class="col-lg-3 mb-3">
-							<img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 734.png">
-							<h6 style="color:#9C1718"><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><b> 20 May
-									2021</b></h6>
-							<h6 style="color:black"><b>Carry On Indonesian Education</b></h6>
-						</div>
-						<div class="col-lg-3 mb-3">
-							<img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 775.png">
-							<h6 style="color:#9C1718"><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><b> 31 May
-									2021</b></h6>
-							<h6 style="color:black"><b>Cooperation with Australian companies</b></h6>
-						</div>
-						<div class="col-lg-3 mb-3">
+							<a style="display:block;" href="<?= base_url("Homepage/program_initiative_details"); ?>">
+								<img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 792.png">
+								<h6 style="color:#9C1718"><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><b> 25 September 2021</b></h6>
+								<h6 style="color:black"><b>Evertalks</b></h6>
+							</a>
+						</div> -->
+						<!-- <div class="col-lg-3 mb-3">
 							<img class="center mb-3" src="<?= base_url('assets'); ?>/images/Rectangle 791.png">
 							<h6 style="color:#9C1718"><i class="fa fa-calendar-o mr-2" aria-hidden="true"></i><b> 06
 									June 2021</b></h6>

@@ -454,19 +454,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 "gambar": "/images/Rectangle 792.png",
                 "tanggal": "17 Desember 2021",
                 "text": "TB x SIRCLO",
-                "url": "<?= base_url("Homepage/events_detail"); ?>"
+                "url": "<?= base_url("Homepage"); ?>"
             },
             {
-                "gambar": "/images/Rectangle 792.png",
-                "tanggal": "25 Oktober 2021",
-                "text": "Evertalks",
-                "url": "<?= base_url("Homepage/program_initiative_details"); ?>"
-            },
-            {
-                "gambar": "/images/Rectangle 792.png",
-                "tanggal": "25 September 2021",
-                "text": "Evertalks",
-                "url": "<?= base_url("Homepage/program_initiative_details"); ?>"
+                "gambar": "/images/event2.png",
+                "tanggal": "22 Desember 2021",
+                "text": "Evertalks#12",
+                "url": "<?= base_url("Homepage"); ?>"
             }
         ]
     </script>
@@ -563,7 +557,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                 document.getElementById("test").innerHTML += `
                 <div class="col-lg-3 pt-5">
                 <a style="display:block;" href="${data[i].url}">
-                <img class="center" src="<?= base_url('assets'); ?>${data[i].gambar}">
+                <img class="center" style="width:280px;height:230px;border-radius:20px" src="<?= base_url('assets'); ?>${data[i].gambar}">
                 <h6 style="margin-left:5%;color:#9C1718"><i class="fa fa-calendar mr-2" aria-hidden="true"></i><b>${data[i].tanggal}</b></h6>
                 <h6 style="margin-left:5%;color:black"><b>${data[i].text}</b></h6>
                 </a>

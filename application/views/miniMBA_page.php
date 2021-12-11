@@ -360,21 +360,25 @@ defined('BASEPATH') or exit('No direct script access allowed');
 				</div>
 				<div class="content-sec-11">
 					<div class="row justify-content-center align-items-center">
-						<div class="col-4 col-md-2 mb-5">
-							<img class="center img-responsive" src="<?= base_url('assets'); ?>/images/everida.png">
-						</div>
-						<div class="col-3 col-md-2 mb-5">
-							<img class="center img-responsive" src="<?= base_url('assets'); ?>/images/pemimpin.png">
-						</div>
-						<div class="col-3 col-md-2 mb-5">
+						<div class="col-3 col-md-2 mb-5 ">
 							<img class="center img-responsive" src="<?= base_url('assets'); ?>/images/sbmitb.png">
 						</div>
-						<div class="col-3 col-md-2 mt-3 mt-md-0 mb-5">
+						<div class="col-3 col-md-2  mt-3 mt-md-0 mb-5">
 							<img class="center img-responsive" src="<?= base_url('assets'); ?>/images/paragon.png">
 						</div>
-						<div class="col-3 col-md-2 mt-3 mt-md-0 mb-5">
+						<div class="col-3 col-md-2 mb-5 ">
+							<img class="center img-responsive" src="<?= base_url('assets'); ?>/images/pemimpin.png">
+						</div>
+						<div class="col-3 col-md-2 mb-5 ">
+							<img style="width:50%" class="center img-responsive" src="<?= base_url('assets'); ?>/images/fsa.png">
+						</div>
+						<div class="col-3 col-md-2  mt-3 mt-md-0 mb-5">
 							<img class="center img-responsive" src="<?= base_url('assets'); ?>/images/maxima.png">
 						</div>
+						<div class="col-3 col-md-2 mb-5 ">
+							<img class="center img-responsive" src="<?= base_url('assets'); ?>/images/everida.png">
+						</div>
+
 					</div>
 				</div>
 			</div>
